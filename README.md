@@ -57,21 +57,21 @@ Dispute Resolution
 # Non-Compliance
 A minor non-compliance issue is defined as an action that does not seriously undermine the quality of the project or function of the group but still impedes progress to a degree. Such infractions can usually be quickly amended by a willing team member with no overall impact on the project.
 Examples:
-*     Being more than 15 minutes late to two meetings or more without good reason
-*     Missing more than two meetings without good reason
-*     Not completing work by an agreed upon date, if this date is before the actual due date of the material
-*     Being unproductive or disruptive at meetings
-*     Taking on too much work, not asking for help and allowing this to impact the quality
-*     Altering someone else’s work without consulting them first
-*     Not responding to Online/Telephonic communications within 1 - 2 days
+* Being more than 15 minutes late to two meetings or more without good reason
+* Missing more than two meetings without good reason
+* Not completing work by an agreed upon date, if this date is before the actual due date of the material
+* Being unproductive or disruptive at meetings
+* Taking on too much work, not asking for help and allowing this to impact the quality
+* Altering someone else’s work without consulting them first
+* Not responding to Online/Telephonic communications within 1 - 2 days
 
 A major non-compliance issue is defined as a breach of the team agreement that severely impacts the quality of the project. Such actions may be irreparable or require a great deal of work and time to fix that the team may have to take off of other projects.
 Examples:
-*     Not completing work by the assignment due date
-*     Insulting/Undermining other team members during meetings or repeatedly causing non-constructive arguments
-*     Not attending any meetings
-*     Drastically changing or removing sections of the project completed by another team member without first consulting the team and abiding by their decision
-*     Completely ignoring all requests for communication within the Team
+* Not completing work by the assignment due date
+* Insulting/Undermining other team members during meetings or repeatedly causing non-constructive arguments
+* Not attending any meetings
+* Drastically changing or removing sections of the project completed by another team member without first consulting the team and abiding by their decision
+* Completely ignoring all requests for communication within the Team
 
 # Dispute Resolution & Conflict Management
 Minor or major non-compliance with this Agreement is likely to manifest as disputes or conflicts between team members.
