@@ -42,7 +42,10 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 Studying my final semester in Bachelor of Information Technology (Human Computer Interaction)
 I have experience in mostly front-end development, which includes HTML, SASS, Javascript and Angular. I also have knowledge in user experience and user interfacing.
 
-## Minh Tram Tran
+## Minh Tram Julien Tran - 44536389 (BInfTech)
+Studying Bachelor or Information Technology with major in User Experience.
+Had experiences in interactive design and multimedia from having done a Diploma in Interactive in Digital Media. Despite having done mostly front end development and graphic designs, I'm also capable of working with programming in Java as well as Database design.
+
 
 
 # Meetings and Contact
