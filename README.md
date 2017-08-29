@@ -91,12 +91,29 @@ If the team member commits another major breach, or these tasks are not complete
 
 If these tasks are not completed or another major breach is committed, the list of uncompleted deadlines, excuses and workload will be passed to the DECO3500 staff whereby peer assessment may be used to scale the offenders grade.
 
-
-Communications: Where and when will your team meet and how will you all communicate? Where will files 1 be stored and shared? What are the file naming conventions? Identify the social platform/s your team has adopted and explain the choice. How will it facilitate communication and / or file sharing?
-
-Plan: Identify the key tasks that need to be completed and when. Identify:
-• Project phases e.g. research; requirements; design; construction;
-• Key deliverables for each phase (Milestones) ; 2
-• Resources – equipment or other tools/people you might need.
+# Resources
+To realize and design the concept, we will need a couple of software to aid us in developing and designing our first prototype.
+* MarvelApp
+> For User testing and prototyping our first design
+* Android studio
+> To develop our first mobile application
+* Slack
+> For day to day discussion of the project
+* Facebook messenger
+> For urgent matters
+* Adobe Photoshop & Illustrator
+> For designing of assets like application icons and etc
 
 Tags: Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness, Collaboration, CSCW) and 2 keywords related to your domain
+
+# Tags
+### Keywords related to communities domain
+* Sharing Information
+* Connecting
+
+### 5 Key concepts
+* Coordination
+* Awareness
+* Emotional Design
+*
+*
