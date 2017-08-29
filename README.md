@@ -115,5 +115,5 @@ Tags: Tag your proposed idea with 5 key concepts from social and mobile lectures
 * Coordination
 * Awareness
 * Emotional Design
-*
-*
+* Asynchronous Interaction
+* Asynchronous Distributed interaction
