@@ -12,6 +12,13 @@ Whilst the application does initially draw upon recipe websites, through RESTful
 
 This idea has a strong starting platform, as there are no other applications out there which have these features implemented. Whilst, there are quite a few meal planners none of them are designed with children in mind, in particular their picky and constant changing food preferences and diets. Further, no other application exists which allows the user to craft their own recipes for the community or for themselves.
 
+The Team
+Ned
+Kelvin
+Jeremy
+Edi
+Julien
+
 ## Project Milestones
 Breakdown of sprint dates and deliverables are as follows:
 
