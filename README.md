@@ -2,7 +2,7 @@
 # Written Proposal - Draft
 ## Introduction & Concept
 
-A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 32% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times. Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health, 25% of them even bother to eat it all.
+A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 33% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times. Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health, 25% of them even bother to eat it all.
 
 Taking this into consideration the team, ‘Frying Nemo’, is dedicated towards developing and implementing an application which helps parents in creating and maintaining a meal plan for their children which is easy, healthy and above all tasty.
 
@@ -12,12 +12,13 @@ Whilst the application does initially draw upon recipe websites, through RESTful
 
 This idea has a strong starting platform, as there are no other applications out there which have these features implemented. Whilst, there are quite a few meal planners none of them are designed with children in mind, in particular their picky and constant changing food preferences and diets. Further, no other application exists which allows the user to craft their own recipes for the community or for themselves.
 
-The Team
-Ned
-Kelvin
-Jeremy
-Edi
-Julien
+### Rating Systems for the application
+    * Having parents preferences
+    * Children preferences
+    * Costs
+    * Delicacies of the food
+
+
 
 ## Project Milestones
 Breakdown of sprint dates and deliverables are as follows:
@@ -35,17 +36,17 @@ Breakdown of sprint dates and deliverables are as follows:
 ### Ned Gordon - 4266224 (BInfTech/Psychology)
 Completing my final year in a duel degree in Psychology and Information Systems. I have experience in web information systems through SQL, JSP, PHP and Javascript, as well as experience in mobile applications using Java. I have knowledge in user experience and user interfacing through my degree in psychology.
 
-### Yik Chuen Cheung - 43847501 (BInfTech)
+### Edi Yik Chuen Cheung - 43847501 (BInfTech)
 Third year undergraduate IT student majoring in Human Computer Interaction. I have experience in being UX designers, I am also confident in front ended work such as  HTML, CSS, UI designing, graphics some PHP..
 
-### Wei Sheng Ding - 44601362 (BInfTech)
+### Wei Sheng Ding Kelvin - 44601362 (BInfTech)
 Studies Bachelor of Information Technology (Software Design Major)
 Studied Diploma in Information Communication Technology (Web Technology and Services) in Singapore Polytechnic
 Experienced with android application development and its life cycle, Software and Hardware testing, Google’s material design, Basic IOS development, Data Communication System, Computer Hardware and System Operation, Web development and database management.
 Have basic knowledge of scripting for automation of software installation and configuration of windows environment. Also experienced in planning schedules for different task (planned schedules for training flights in the air force previously) and testing of softwares and hardwares.
 Conducted the Windows Phone 7 Training Workshop which taught many interested students the basics of creating applications in Microsoft Silverlight.
 
-### Yung Hau Ng - 43848375 (BInfTech)
+### Yung Hau Ng Jeremy - 43848375 (BInfTech)
 Studying my final semester in Bachelor of Information Technology (Human Computer Interaction)
 I have experience in mostly front-end development, which includes HTML, SASS, Javascript and Angular. I also have knowledge in user experience and user interfacing.
 
@@ -111,7 +112,6 @@ To realize and design the concept, we will need a couple of software to aid us i
 * Adobe Photoshop & Illustrator
 > For designing of assets like application icons and etc
 
-Tags: Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness, Collaboration, CSCW) and 2 keywords related to your domain
 
 ## Tags
 ### Keywords related to communities domain
