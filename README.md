@@ -34,16 +34,16 @@ Breakdown of sprint dates and deliverables are as follows:
 ## The Team
 
 ### Ned Gordon - 4266224 (BInfTech/Psychology)
-		Completing my final year in a duel degree in Psychology and Information Systems. I have experience in web information systems through SQL, JSP, PHP and Javascript, as well as experience in mobile applications using Java. I have knowledge in user experience and user interfacing through my degree in psychology.
+> Completing my final year in a duel degree in Psychology and Information Systems. I have experience in web information systems through SQL, JSP, PHP and Javascript, as well as experience in mobile applications using Java. I have knowledge in user experience and user interfacing through my degree in psychology.
 
 ### Edi Yik Chuen Cheung - 43847501 (BInfTech)
-Third year undergraduate IT student majoring in Human Computer Interaction. I have experience in being UX designers, I am also confident in front ended work such as  HTML, CSS, UI designing, graphics some PHP..
+> Third year undergraduate IT student majoring in Human Computer Interaction. I have experience in being UX designers, I am also confident in front ended work such as  HTML, CSS, UI designing, graphics some PHP..
 
 ### Wei Sheng Ding Kelvin - 44601362 (BInfTech)
-Studies Bachelor of Information Technology (Software Design Major)
-Studied Diploma in Information Communication Technology (Web Technology and Services) in Singapore Polytechnic
-Experienced with android application development and its life cycle, Software and Hardware testing, Google’s material design, Basic IOS development, Data Communication System, Computer Hardware and System Operation, Web development and database management.
-Have basic knowledge of scripting for automation of software installation and configuration of windows environment. Also experienced in planning schedules for different task (planned schedules for training flights in the air force previously) and testing of softwares and hardwares.
+> Studies Bachelor of Information Technology (Software Design Major)
+> Studied Diploma in Information Communication Technology (Web Technology and Services) in Singapore Polytechnic
+> Experienced with android application development and its life cycle, Software and Hardware testing, Google’s material design, Basic IOS development, Data Communication System, Computer Hardware and System Operation, Web development and database management.
+> Have basic knowledge of scripting for automation of software installation and configuration of windows environment. Also experienced in planning schedules for different task (planned schedules for training flights in the air force previously) and testing of softwares and hardwares.
 Conducted the Windows Phone 7 Training Workshop which taught many interested students the basics of creating applications in Microsoft Silverlight.
 
 ### Yung Hau Ng Jeremy - 43848375 (BInfTech)
