@@ -1,5 +1,4 @@
 # Frying_Nemo
-# Written Proposal - Draft
 ## Introduction & Concept
 
 A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 33% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times. Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health, 25% of them even bother to eat it all.
@@ -40,19 +39,19 @@ Breakdown of sprint dates and deliverables are as follows:
 > Third year undergraduate IT student majoring in Human Computer Interaction. I have experience in being UX designers, I am also confident in front ended work such as  HTML, CSS, UI designing, graphics some PHP..
 
 ### Wei Sheng Ding Kelvin - 44601362 (BInfTech)
-> Studies Bachelor of Information Technology (Software Design Major)
+> Studies Bachelor of Information Technology
 > Studied Diploma in Information Communication Technology (Web Technology and Services) in Singapore Polytechnic
 > Experienced with android application development and its life cycle, Software and Hardware testing, Google’s material design, Basic IOS development, Data Communication System, Computer Hardware and System Operation, Web development and database management.
 > Have basic knowledge of scripting for automation of software installation and configuration of windows environment. Also experienced in planning schedules for different task (planned schedules for training flights in the air force previously) and testing of softwares and hardwares.
 Conducted the Windows Phone 7 Training Workshop which taught many interested students the basics of creating applications in Microsoft Silverlight.
 
 ### Yung Hau Ng Jeremy - 43848375 (BInfTech)
-Studying my final semester in Bachelor of Information Technology (Human Computer Interaction)
-I have experience in mostly front-end development, which includes HTML, SASS, Javascript and Angular. I also have knowledge in user experience and user interfacing.
+> Studying my final semester in Bachelor of Information Technology (Human Computer Interaction)
+> I have experience in mostly front-end development, which includes HTML, SASS, Javascript and Angular. I also have knowledge in user experience and user interfacing.
 
 ### Minh Tram Julien Tran - 44536389 (BInfTech)
-Studying Bachelor or Information Technology with major in User Experience.
-Had experiences in interactive design and multimedia from having done a Diploma in Interactive in Digital Media. Despite having done mostly front end development and graphic designs, I'm also capable of working with programming in Java as well as Database design.
+> Studying Bachelor or Information Technology with major in User Experience.
+> Had experiences in interactive design and multimedia from having done a Diploma in Interactive in Digital Media. Despite having done mostly front end development and graphic designs, I'm also capable of working with programming in Java as well as Database design.
 
 
 
