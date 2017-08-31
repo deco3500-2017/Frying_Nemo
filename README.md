@@ -34,7 +34,7 @@ Breakdown of sprint dates and deliverables are as follows:
 ## The Team
 
 ### Ned Gordon - 4266224 (BInfTech/Psychology)
-`Completing my final year in a duel degree in Psychology and Information Systems. I have experience in web information systems through SQL, JSP, PHP and Javascript, as well as experience in mobile applications using Java. I have knowledge in user experience and user interfacing through my degree in psychology.`
+		Completing my final year in a duel degree in Psychology and Information Systems. I have experience in web information systems through SQL, JSP, PHP and Javascript, as well as experience in mobile applications using Java. I have knowledge in user experience and user interfacing through my degree in psychology.
 
 ### Edi Yik Chuen Cheung - 43847501 (BInfTech)
 Third year undergraduate IT student majoring in Human Computer Interaction. I have experience in being UX designers, I am also confident in front ended work such as  HTML, CSS, UI designing, graphics some PHP..
