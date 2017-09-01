@@ -29,7 +29,9 @@ Breakdown of sprint dates and deliverables are as follows:
 | 3 | 27/10/2017      |    Fully Interactive Application |
 
 ### Project schedules
-
+| Project Phase | Project Activities | Deliverables | Start | Finish |
+|---------------|:--------------------:|:--------------:|:-------:|:--------:|
+|testing| asdasd|asdasd|asdasd|asdasd|
 
 
 
