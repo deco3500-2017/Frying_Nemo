@@ -1,8 +1,8 @@
 # Frying_Nemo
-## Introduction & Concept
 
+## Background
 A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 33% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times. Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health, 25% of them even bother to eat it all.
-
+## Introduction & Concept
 Taking this into consideration the team, ‘Frying Nemo’, is dedicated towards developing and implementing an application which helps parents in creating and maintaining a meal plan for their children which is easy, healthy and above all tasty.
 
 Given the picky eating habits of young children, this application allows you to search for healthy recipes and meals which do/don’t include, certain ingredients/vegetables. This also allows parents to cater towards specific diets, such as nut intolerances and celiacs.
@@ -11,12 +11,21 @@ Whilst the application does initially draw upon recipe websites, through RESTful
 
 This idea has a strong starting platform, as there are no other applications out there which have these features implemented. Whilst, there are quite a few meal planners none of them are designed with children in mind, in particular their picky and constant changing food preferences and diets. Further, no other application exists which allows the user to craft their own recipes for the community or for themselves.
 
-### Rating Systems for the application
-    * Having parents preferences
-    * Children preferences
-    * Costs
-    * Delicacies of the food
+### Key features for the application
 
+
+| Key features        | Description           |
+| Sharability |Parents have the option to share their prefered recipes to the communities while parents also have the option to view and access the shared recipes from the other parents to compare the costs, ingredient or nutritions of different recipes for the delicacies of the food|
+| Rating System    | Parents have the option to vote and rate for their prefered recipes, having a parents and children preferences will be able to help parents to prepare food for the children much easier and healthier.| Project Proposal |
+| Nutrition Diagram     | All calculated nutrition data will be display in the user profile in the form of a data driven documation diagram-D3 diagram in order to have a better representation of nutrition data to the users.      |
+| Calculation of Nutrition data | When user is creating a new recipe or combination of food or browsing shared recipe, nutrition of each ingredients will be caculated and displayed. In this case, user will have a better understanding of the nutrition of each ingredient.
+
+### Audience
+
+* Persona A - Ming Lee
+> Single father of 2 young children, one in kindergarten and one in primary school. He has a day job from 9am to 6pm (not inclusive of over-time) and barely have time to pack lunch for his two children in the morning. Consequently, due to time constraints the lunch boxes packed for his kids contain unhealthy food, such as chips, pre-packaged food and soft drinks.
+* Persona B - James Kappa
+> Married father with 1 young children who is studying in the primary schools. He loves to prepare lunchboxes for his son but lately, he has ran out of ideas for it. James wants to seek out other creative and healthy recipes for his son's everyday lunchbox, as well as sharing his with others.
 
 
 ### Project Milestones
@@ -40,29 +49,36 @@ Breakdown of tasks and week for the project
 | Product Implementation | 10-11 | Further development on prototype and user testing for feature performance |
 | Product Implementation | 12-13 | Make improvement after user testing and finalizing for the final submission |
 
+## Roles
 
-
+| Team member        | Student ID           | Roles  |
+| ------------- |:-------------:| :-----|
+| Ned Gordon     | S4266224 | Back-end |
+| Edi Yik Chuen Cheung     | S4384750     |   UX designer, Front-end |
+| Wei Sheng Ding Kelvin     | S4460136      |   Front-end, Back-end|
+| Yung Hau Ng Jeremy    | S4384837      |  Front-end |
+| Minh Tram Julien Tran | S4453638      |   UX designer |
 
 ## The Team
 
-### Ned Gordon - 4266224 (BInfTech/Psychology)
+### Ned Gordon - S4266224 (BInfTech/Psychology)
 > Completing my final year in a duel degree in Psychology and Information Systems. I have experience in web information systems through SQL, JSP, PHP and Javascript, as well as experience in mobile applications using Java. I have knowledge in user experience and user interfacing through my degree in psychology.
 
-### Edi Yik Chuen Cheung - 43847501 (BInfTech)
+### Edi Yik Chuen Cheung - S4384750 (BInfTech)
 > Third year undergraduate IT student majoring in Human Computer Interaction. I have experience in being UX designers, I am also confident in front ended work such as  HTML, CSS, UI designing, graphics some PHP..
 
-### Wei Sheng Ding Kelvin - 44601362 (BInfTech)
+### Wei Sheng Ding Kelvin - S4460136 (BInfTech)
 > Studies Bachelor of Information Technology
 > Studied Diploma in Information Communication Technology (Web Technology and Services) in Singapore Polytechnic
 > Experienced with android application development and its life cycle, Software and Hardware testing, Google’s material design, Basic IOS development, Data Communication System, Computer Hardware and System Operation, Web development and database management.
 > Have basic knowledge of scripting for automation of software installation and configuration of windows environment. Also experienced in planning schedules for different task (planned schedules for training flights in the air force previously) and testing of softwares and hardwares.
 Conducted the Windows Phone 7 Training Workshop which taught many interested students the basics of creating applications in Microsoft Silverlight.
 
-### Yung Hau Ng Jeremy - 43848375 (BInfTech)
+### Yung Hau Ng Jeremy - S4384837 (BInfTech)
 > Studying my final semester in Bachelor of Information Technology (Human Computer Interaction)
 > I have experience in mostly front-end development, which includes HTML, SASS, Javascript and Angular. I also have knowledge in user experience and user interfacing.
 
-### Minh Tram Julien Tran - 44536389 (BInfTech)
+### Minh Tram Julien Tran - S4453638 (BInfTech)
 > Studying Bachelor or Information Technology with major in User Experience.
 > Had experiences in interactive design and multimedia from having done a Diploma in Interactive in Digital Media. Despite having done mostly front end development and graphic designs, I'm also capable of working with programming in Java as well as Database design.
 
