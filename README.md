@@ -27,7 +27,7 @@ Parents, teachers, anyone who are running out of ideas for their lunchbox or do 
 * Persona B - James Kappa
 > Married father with 1 young children who is studying in the primary schools. He loves to prepare lunchboxes for his son but lately, he has ran out of ideas for it. James wants to seek out other creative and healthy recipes for his son's everyday lunchbox, as well as sharing his with others.
 
-`For more information about the person, please use this` [link](https://github.com/deco3500-2017/Frying_Nemo/blob/master/Week%205%20Practical.docx "Persona's")
+`For more information about the persona's, please use this` [link](https://github.com/deco3500-2017/Frying_Nemo/blob/master/Week%205%20Practical.docx "Persona's")
 
 
 
