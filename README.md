@@ -19,7 +19,7 @@ This idea has a strong starting platform, as there are no other applications out
 
 
 
-### Key Deliverables
+### Project Milestones
 Breakdown of sprint dates and deliverables are as follows:
 
 | Sprint        | Dates           | Deliverables  |
@@ -28,10 +28,18 @@ Breakdown of sprint dates and deliverables are as follows:
 | 2     | 25/09/2017      |   Minimum Viable Product |
 | 3 | 27/10/2017      |    Fully Interactive Application |
 
-### Project schedules
-| Project Phase | Project Activities | Deliverables | Start | Finish |
-|---------------|:--------------------:|:--------------:|:-------:|:--------:|
-|testing| asdasd|asdasd|asdasd|asdasd|
+### Project Plan
+Breakdown of tasks and week for the project
+
+| Tasks        | week           | Description  |
+| ------------- |:-------------:| -----:|
+| Research | 7 - 8 | Collecting research and data for target audience and further technology for implementation |
+| Design |7| Designing wireframe and mockups for the application |
+| | - | Paper prototype for UX testing |
+| Product Implementation | 8 - 9 | Beginning the implementation of prototype for MVP |
+|  | 10 - 11| Further development on prototype and user testing for feature performance |
+| | 12 - 13 | Make improvement after user testing and finalizing for the final submission |
+
 
 
 
