@@ -19,7 +19,7 @@ This idea has a strong starting platform, as there are no other applications out
 
 
 
-## Project Milestones
+### Project Milestones
 Breakdown of sprint dates and deliverables are as follows:
 
 | Sprint        | Dates           | Deliverables  |
@@ -55,16 +55,16 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 
 
 
-## Meetings and Contact
+### Meetings and Contact
 We will hold meetings in the studio sessions - members are expected to attend, or to notify their teammates, ideally within 24 hours, if they cannot make it via the Slack group or SMS. Other meetings will be arranged as necessary, arranged a week in advance, to ensure that all members can attend. If members cannot attend, arrangements will be made to facilitate the meeting through Google Hangouts. Normal communication will be through slack and email. Members are expected to check these as often as possible and at least every 2 working days, and should notify the group if they are going to be out of contact for more than a 3 working days.
 Any information which is produced for the development of the project must be submitted to either the shared google drive or github repository, ‘Frying-Nemo’. Any information or links which are not required by the entire/majority of the group may be shared via Slack, where appropriate. Google Drive and Github were chosen due to the permanency of their storage options, as opposed to Slack which deletes content after a period of time, as well as the ease in which each member’s contributions towards the team can be tracked.
 
-## Task Division
+### Task Division
 Tasks will be allocated using Scrum principles and through discussion within the group. Group members are expected to do their best to deliver tasks on time, and should contact the group in advance if they anticipate being unable to do so. Tasks will be posted on Trello.
 The division of labour in the team will be assessed halfway through the project to determine if each member has been contributing roughly the same amount of story points to the project. If one team member is contributing 15% or less story points relative to other team members, this will be considered a major breach and dealt with in the guidelines below.
 Dispute Resolution
 
-## Non-Compliance
+### Non-Compliance
 A minor non-compliance issue is defined as an action that does not seriously undermine the quality of the project or function of the group but still impedes progress to a degree. Such infractions can usually be quickly amended by a willing team member with no overall impact on the project.
 Examples:
 * Being more than 15 minutes late to two meetings or more without good reason
@@ -83,22 +83,22 @@ Examples:
 * Drastically changing or removing sections of the project completed by another team member without first consulting the team and abiding by their decision
 * Completely ignoring all requests for communication within the Team
 
-## Dispute Resolution & Conflict Management
+### Dispute Resolution & Conflict Management
 Minor or major non-compliance with this Agreement is likely to manifest as disputes or conflicts between team members.
 
-## Minor Breaches - Resolution
+### Minor Breaches - Resolution
 The first step in resolving minor breaches will be to mention the issue with the team member/s committing the offence in a non confrontational manner, as it would be counter productive to let issues slowly mount over time and unfair to both the team member and the rest of the team. The entire team will look to find a resolution to the issue as soon as possible, so as to allow work to continue without disruption.
 
 If this is the first or second minor breach a team member has committed then no further action will be taken. If a series of minor breaches occur then the third and subsequent breaches will be dealt with as if they were a major breach.
 
-## Major Breaches - Resolution
+### Major Breaches - Resolution
 In the event of a major breach, a team meeting will be called to discuss the breach in a fair manner. Depending on the severity of the breach and the justification for lack of work the team may decide to redistribute the work in order to get the task complete.  In any case, a member committing a first major breach will receive a verbal warning, along with a list of fair tasks allocated by the rest of the team to make up for the breach, with specific success criteria and a specific and fair deadline.
 
 If the team member commits another major breach, or these tasks are not completed by the assigned deadline then a similar meeting will be called, where once again the other team members, by unanimous decision, may decide to redistribute the unfinished workload and the teaching staff of DECO3500 will be informed of this counterproductive attitude.. The team member will then receive a written warning and a new list of tasks to complete with specific success criteria and a specific deadline to demonstrate improvement.
 
 If these tasks are not completed or another major breach is committed, the list of uncompleted deadlines, excuses and workload will be passed to the DECO3500 staff whereby peer assessment may be used to scale the offenders grade.
 
-## Resources
+### Resources
 To realize and design the concept, we will need a couple of software to aid us in developing and designing our first prototype.
 * MarvelApp
 > For User testing and prototyping our first design
