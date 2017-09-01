@@ -37,8 +37,8 @@ Breakdown of tasks and week for the project
 | Design | 7 | Designing wireframe and mockups for the application |
 | Design | 7 | Paper prototype for UX testing |
 | Product Implementation | 8 - 9 | Beginning the implementation of prototype for MVP |
-| Product Implementation | 10 - 11 | Further development on prototype and user testing for feature performance |
-| Product Implementation | 12 - 13 | Make improvement after user testing and finalizing for the final submission |
+| Product Implementation | 10-11 | Further development on prototype and user testing for feature performance |
+| Product Implementation | 12-13 | Make improvement after user testing and finalizing for the final submission |
 
 
 
