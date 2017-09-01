@@ -19,7 +19,7 @@ This idea has a strong starting platform, as there are no other applications out
 
 
 
-### Project Milestones
+### Key Deliverables
 Breakdown of sprint dates and deliverables are as follows:
 
 | Sprint        | Dates           | Deliverables  |
@@ -27,6 +27,9 @@ Breakdown of sprint dates and deliverables are as follows:
 | 1     | 01/09/2017 | Project Proposal |
 | 2     | 25/09/2017      |   Minimum Viable Product |
 | 3 | 27/10/2017      |    Fully Interactive Application |
+
+### Project schedules
+
 
 
 
