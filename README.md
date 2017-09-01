@@ -1,7 +1,7 @@
 # Frying_Nemo
 
 ## Background
-A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 33% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times. Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health, 25% of them even bother to eat it all.
+A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 33% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times (2015). Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health (Medical Daily, 2014), 25% of them even bother to eat it all.
 ## Introduction & Concept
 Taking this into consideration the team, ‘Frying Nemo’, is dedicated towards developing and implementing an application which helps parents in creating and maintaining a meal plan for their children which is easy, healthy and above all tasty.
 
@@ -27,7 +27,7 @@ Parents, teachers, anyone who are running out of ideas for their lunchbox or do 
 * Persona B - James Kappa
 > Married father with 1 young children who is studying in the primary schools. He loves to prepare lunchboxes for his son but lately, he has ran out of ideas for it. James wants to seek out other creative and healthy recipes for his son's everyday lunchbox, as well as sharing his with others.
 
-`For more information about the persona's, please use this` [link](https://github.com/deco3500-2017/Frying_Nemo/blob/master/Week%205%20Practical.docx "Persona's")
+`For more information about the person, please use this` [link](https://github.com/deco3500-2017/Frying_Nemo/blob/master/Week%205%20Practical.docx "Persona's")
 
 
 
@@ -155,3 +155,9 @@ To realize and design the concept, we will need a couple of software to aid us i
 * Emotional Design
 * Asynchronous Interaction
 * Asynchronous Distributed interaction
+
+## References
+
+OccupyTheory. (2014). Unhealthy School Lunches Statistics. [online] Available at: https://occupytheory.org/unhealthy-school-lunches-statistics/ [Accessed 22 Aug. 2017].
+
+Tavernise, S. (2015). School Lunches Becoming Healthier, Statistics Indicate. [online] Nytimes.com. Available at: https://www.nytimes.com/2015/08/28/health/school-lunches-becoming-healthier-statistics-indicate.html [Accessed 22 Aug. 2017].
