@@ -31,14 +31,14 @@ Breakdown of sprint dates and deliverables are as follows:
 ### Project Plan
 Breakdown of tasks and week for the project
 
-| Tasks        | week           | Description  |
-| ------------- |:-------------:| -----:|
-| Research | 7 - 8 | Collecting research and data for target audience and further technology for implementation |
+| Tasks        | Week           | Description  |
+| :-------------: | :-----------------: | :-----------|
+| Research | 7-8 | Collecting research and data for target audience and further technology for implementation |
 | Design |7| Designing wireframe and mockups for the application |
 | | - | Paper prototype for UX testing |
 | Product Implementation | 8 - 9 | Beginning the implementation of prototype for MVP |
-|  | 10 - 11| Further development on prototype and user testing for feature performance |
-| | 12 - 13 | Make improvement after user testing and finalizing for the final submission |
+|  | 10-11 | Further development on prototype and user testing for feature performance |
+| | 12-13 | Make improvement after user testing and finalizing for the final submission |
 
 
 
