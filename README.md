@@ -1,5 +1,6 @@
 # Frying_Nemo
 
+
 ## Background
 A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 33% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times (2015). Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health, 25% of them even bother to eat it all (Medical Daily, 2014).
 ## Introduction & Concept
