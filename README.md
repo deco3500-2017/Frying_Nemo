@@ -104,6 +104,8 @@ User journey map is a demonstration of the user behaviour through identifying th
 
 User journry map version 1 (Srpint 1, Week8, updated 13-Sep-2017 )
 
+![user journey 1](https://user-images.githubusercontent.com/12377827/31161678-08601484-a91c-11e7-9a26-7f5f685cabbf.png)
+
 
 ### Mockup
 Mockup is a realistic desgin representaion of the layout of the web application with the support of the visual design, visualised content and basic functionalities of the product.
@@ -119,7 +121,7 @@ https://marvelapp.com/4iga8bd/screen/32252576
 ### Prototype
 Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
  
-Prototype 2
+Prototype
 
 https://marvelapp.com/4iga8bd/screen/32252576
 
