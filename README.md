@@ -144,6 +144,8 @@ User journey map is a demonstration of the user behaviour through identifying th
 
 User journry map version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
 
+![user-journey](https://user-images.githubusercontent.com/12377827/31161476-ac4cea06-a91a-11e7-9d82-24b51b01e4bd.png)
+
 
 ### Mockup
 Mockup is a realistic desgin representaion of the layout of the web application with the support of the visual design, visualised content and basic functionalities of the product.
