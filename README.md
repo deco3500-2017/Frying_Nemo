@@ -85,10 +85,17 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 > Studying Bachelor or Information Technology with major in User Experience.
 > Had experiences in interactive design and multimedia from having done a Diploma in Interactive in Digital Media. Despite having done mostly front end development and graphic designs, I'm also capable of working with programming in Java as well as Database design.
 
+
+
+
+
+
+## Sprint 1
+
 ### Wireframe
 Wireframe is the skeleton framework of the interface of the web application, it is used for creating a better representation of idea through lines and vectors. 
 
-Wireframe version 1 (Srpint 1, Week7, updated 4-Sep-2017 ) 
+
 
 Wireframe version 2 (Srpint 2, Week10, updated 1-Oct-2017 )
 
@@ -97,30 +104,10 @@ User journey map is a demonstration of the user behaviour through identifying th
 
 User journry map version 1 (Srpint 1, Week8, updated 13-Sep-2017 )
 
-User journry map version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
 
 ### Mockup
 Mockup is a realistic desgin representaion of the layout of the web application with the support of the visual design, visualised content and basic functionalities of the product.
-
-Mockup version 1 (Srpint 1, Week9, updated 21-Sep-2017 )
-
-
-Mockup version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
-
-https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
-
-
-### Prototype
-Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
-
-Prototype 1
-
-https://marvelapp.com/4iga8bd/screen/32252576
-
-### User testing
-Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
-
-Mockup user testing 1 (Srpint 1, Week7, updated 4-Sep-2017 )
+Mockup user testing 1 (Week7, updated 4-Sep-2017 )
 
 https://drive.google.com/open?id=0B7qYjwpry_vPN3JBeGxZMWxiQUU
 
@@ -128,9 +115,55 @@ Mockup user testing 2 (Srpint 1, Week8, updated 11-Sep-2017 )
 
 https://marvelapp.com/4iga8bd/screen/32252576
 
+
+### Prototype
+Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
+ 
+Prototype 2
+
+https://marvelapp.com/4iga8bd/screen/32252576
+
+### User testing
+Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
+
+Plan after user testing 1, we decided to slightlt modified to design and the flow of the design, work will be evenly distributed to all team members.
+
+
+## Sprint 2
+
+### Wireframe
+Wireframe is the skeleton framework of the interface of the web application, it is used for creating a better representation of idea through lines and vectors. 
+
+
+Wireframe version 2 (Srpint 2, Week10, updated 1-Oct-2017 )
+
+### User journey map
+User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
+
+
+
+User journry map version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
+
+
+### Mockup
+Mockup is a realistic desgin representaion of the layout of the web application with the support of the visual design, visualised content and basic functionalities of the product.
+
 Mockup user testing 3 (Srpint 2, Week10, updated 2-Oct-2017 )
 
 https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
+
+
+### Prototype
+Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
+ 
+
+
+### User testing
+Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
+
+
+
+
 
 
 ### Meetings and Contact
