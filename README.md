@@ -113,12 +113,26 @@ https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
 ### Prototype
 Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
 
+Prototype 1
+
+https://marvelapp.com/4iga8bd/screen/32252576
+
 ### User testing
 Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
 
 Mockup user testing 1 (Srpint 1, Week7, updated 4-Sep-2017 )
 
-Mockup user testing 2 (Srpint 1, Week7, updated 8-Sep-2017 )
+https://drive.google.com/open?id=0B7qYjwpry_vPN3JBeGxZMWxiQUU
+
+Mockup user testing 2 (Srpint 1, Week8, updated 11-Sep-2017 )
+
+https://marvelapp.com/4iga8bd/screen/32252576
+
+Mockup user testing 3 (Srpint 2, Week10, updated 2-Oct-2017 )
+
+https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
+
+
 ### Meetings and Contact
 We will hold meetings in the studio sessions - members are expected to attend, or to notify their teammates, ideally within 24 hours, if they cannot make it via the Slack group or SMS. Other meetings will be arranged as necessary, arranged a week in advance, to ensure that all members can attend. If members cannot attend, arrangements will be made to facilitate the meeting through Google Hangouts. Normal communication will be through slack and email. Members are expected to check these as often as possible and at least every 2 working days, and should notify the group if they are going to be out of contact for more than a 3 working days.
 Any information which is produced for the development of the project must be submitted to either the shared google drive or github repository, ‘Frying-Nemo’. Any information or links which are not required by the entire/majority of the group may be shared via Slack, where appropriate. Google Drive and Github were chosen due to the permanency of their storage options, as opposed to Slack which deletes content after a period of time, as well as the ease in which each member’s contributions towards the team can be tracked.
