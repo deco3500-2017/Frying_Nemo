@@ -104,7 +104,11 @@ Mockup is a realistic desgin representaion of the layout of the web application 
 
 Mockup version 1 (Srpint 1, Week9, updated 21-Sep-2017 )
 
+
 Mockup version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
+
+https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
+
 
 ### Prototype
 Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
