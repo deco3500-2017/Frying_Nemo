@@ -95,12 +95,12 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 ### Wireframe
 Wireframe is the skeleton framework of the interface of the web application, it is used for creating a better representation of idea through lines and vectors. 
 
-https://drive.google.com/drive/u/0/folders/0Bz9R1CjOQ21ANUJhUG1aY0tHdE0
+https://drive.google.com/open?id=0Bz9R1CjOQ21ANUJhUG1aY0tHdE0
 
 
 Wireframe version 2 (Sprint 2, Week10, updated 1-Oct-2017 )
 
-https://drive.google.com/drive/u/0/folders/0B2GxQ6YSknlCTHYyYWpNcDMtYzQ
+https://drive.google.com/open?id=0B2GxQ6YSknlCTHYyYWpNcDMtYzQ
 
 ### User journey map
 User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
