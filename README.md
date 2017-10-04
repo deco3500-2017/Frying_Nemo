@@ -85,7 +85,28 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 > Studying Bachelor or Information Technology with major in User Experience.
 > Had experiences in interactive design and multimedia from having done a Diploma in Interactive in Digital Media. Despite having done mostly front end development and graphic designs, I'm also capable of working with programming in Java as well as Database design.
 
+### Wireframe
+Wireframe is the skeleton framework of the interface of the web application, it is used for creating a better representation of idea through lines and vectors. 
 
+Wireframe version 1 updated 4-Sep-2017
+
+Wireframe version 2 updated 7-Sep-2017
+
+### User journey map
+User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
+
+
+### Mockup
+Mockup is a realistic desgin representaion of the layout of the web application with the support of the visual design, visualised content and basic functionalities of the product.
+Mockup version 1 updated 18-Sep-2017
+
+Mockup version 2 updated 23-Sep-2017
+
+### Prototype
+Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
+
+### User testing
+Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
 
 ### Meetings and Contact
 We will hold meetings in the studio sessions - members are expected to attend, or to notify their teammates, ideally within 24 hours, if they cannot make it via the Slack group or SMS. Other meetings will be arranged as necessary, arranged a week in advance, to ensure that all members can attend. If members cannot attend, arrangements will be made to facilitate the meeting through Google Hangouts. Normal communication will be through slack and email. Members are expected to check these as often as possible and at least every 2 working days, and should notify the group if they are going to be out of contact for more than a 3 working days.
