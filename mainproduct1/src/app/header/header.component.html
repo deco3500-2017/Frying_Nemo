@@ -1,0 +1,38 @@
+<section class="all-modals" *ngIf="isModalShown" [@fadeInAnimation]="enter">
+</section>
+<div class="main-container">
+    <div class="left-container" (click)="back()">
+        Back
+    </div>
+    <div class="mid-container">
+        <div routerLink="/home" routerLinkActive="currentPage">Home</div>
+        <div routerLink="/lunch" routerLinkActive="currentPage">My Lunch Box</div>
+        <div routerLink="/recipe" routerLinkActive="currentPage">Recipe</div>
+        <div routerLink="/library" routerLinkActive="currentPage">Food Library</div>
+        <div routerLink="/profile" routerLinkActive="currentPage">Profile</div>
+    </div>
+    <div class="right-container" routerLink="/home" routerLinkActive="homepage">
+        <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+    </div>
+    <!-- <div class="right-container">
+        <button class="navigation-mobile-btn" (click)="isDropdown = !isDropdown" (click)="isModalShown = !isModalShown" [ngClass]="{'active': menu == true}" (click)="toggleMenu()" (changeMenu)="toggleMenu()">
+            <div class="hamburger"></div>
+        </button>
+        <section class="header-mobile-right-content" *ngIf="isDropdown" [@slideInAnimation]="enter">
+            <section class="navigation">
+                <span>
+                    <div class="link" routerLink="/home" routerLinkActive="current-tab" (click)="isDropdown = !isDropdown" (click)="isModalShown = !isModalShown">home</div>
+                </span>
+                <span>
+                    <div class="link" routerLink="/nutrition" routerLinkActive="current-tab" (click)="isDropdown = !isDropdown" (click)="isModalShown = !isModalShown">nutrition</div>
+                </span>
+                <span>
+                    <div class="link" routerLink="/recipe" routerLinkActive="current-tab" (click)="isDropdown = !isDropdown" (click)="isModalShown = !isModalShown"> recipes</div> 
+                </span>
+                <span>
+                    <div class="link" routerLink="/profile" routerLinkActive="current-tab" (click)="isDropdown = !isDropdown" (click)="isModalShown = !isModalShown">profile</div> 
+                </span>
+            </section>
+        </section>
+    </div> -->
+</div>

@@ -1,0 +1,43 @@
+<div class="main-container">
+    <form [formGroup]='recipeForm' (ngSubmit)="onSubmitForm(recipeForm)">
+        <div class="field">
+            <label for="name">Name</label>
+            <input type="text" formControlName="recipeName">
+            <!--display error message if name is not valid-->
+            <small *ngIf="!recipeForm.controls.recipeName.valid" class="text-danger">
+                Name is required (minimum 3 characters).
+            </small>
+        </div>
+        <div class="field">
+            <label for="name">Description</label>
+            <textarea name="description" id="" cols="30" rows="10" formControlName="recipeDescription"></textarea>
+            <!--display error message if name is not valid-->
+            <small *ngIf="!recipeForm.controls.recipeDescription.valid" class="text-danger">
+                Name is required (minimum 5 characters).
+            </small>
+        </div>
+
+        <!-- List for instructions -->
+        <div formArrayName="recipeInstructions">
+            <div *ngFor="let insturction of recipeForm.controls.recipeInstructions.controls; let i=index" class="panel panel-default">
+                <div class="panel-heading">
+                    <span>Insturctions {{i + 1}}</span>
+                    <span *ngIf="recipeForm.controls.recipeInstructions.controls.length > 1" (click)="removeInsturction(i)"></span>
+                </div>
+                <div class="panel-body" [formGroupName]="i">
+                    <input type="text" class="form-control" formControlName="instruction">
+                    <!--display error message if name is not valid-->
+                    <small [hidden]="recipeForm.controls.recipeInstructions.controls[i].controls.instruction.valid" class="text-danger">
+                        Insturctions is required
+                    </small>
+                </div>
+            </div>
+        </div>
+        <div class="add" (click)="addInstruction()" *ngIf="recipeForm.controls.recipeInstructions.valid">
+            Add another Insturction
+        </div>
+        <input type="submit" value="Create" [disabled]="!recipeForm.valid">
+    </form>
+</div>
+
+<app-footer></app-footer>

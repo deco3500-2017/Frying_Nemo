@@ -1,0 +1,63 @@
+<div class="main-container">
+    <div class="recipe-image">
+        <img src={{recipe.imgURL}} alt="">
+    </div>
+    <div class="recipe-name">{{recipe.name}}</div>
+    <div class="recipe-description">
+        {{recipe.description}}
+    </div>
+    <div class="recipe-ingredient">
+        <div class="title">Ingredient</div>
+    </div>
+    <div class="recipe-instruction">
+        <div class="title">Instruction</div>
+        <div class="instruction" *ngFor="let instruction of recipe.instruction; index as i">
+            {{i + 1}}. {{recipe.instruction[i]}}
+        </div>
+    </div>
+    <div class="recipe-nutrition">
+        <div class="title">Nutrition</div>
+        <div class="food-nutrition-field">
+            <div class="food-nutrition-field-left">
+                Carbohydrates:
+            </div>
+            <div class="food-nutrition-field-right">
+                1.8g
+            </div>
+        </div>
+        <div class="food-nutrition-field">
+            <div class="food-nutrition-field-left">
+                Protein:
+            </div>
+            <div class="food-nutrition-field-right">
+                30g
+            </div>
+        </div>
+        <div class="food-nutrition-field">
+            <div class="food-nutrition-field-left">
+                Sodium:
+            </div>
+            <div class="food-nutrition-field-right">
+                77mg
+            </div>
+        </div>
+        <div class="food-nutrition-field">
+            <div class="food-nutrition-field-left">
+                Cholesterol:
+            </div>
+            <div class="food-nutrition-field-right">
+                87mg
+            </div>
+        </div>
+        <div class="food-nutrition-field">
+            <div class="food-nutrition-field-left">
+                Fat:
+            </div>
+            <div class="food-nutrition-field-right">
+                11g
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,10 @@
+<div class="main-container">
+    <div class="library-container">
+        <div *ngFor="let ingredient of ingredients" class="food-container" (click)="goToIngredient(ingredient.name)">
+            <div class="food-image">
+                <img src={{ingredient.imgURL}} alt="">
+            </div>
+            <div class="food-name">{{ingredient.name}}</div>
+        </div>
+    </div>
+</div>

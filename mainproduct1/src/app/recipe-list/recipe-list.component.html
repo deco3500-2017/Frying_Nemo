@@ -1,0 +1,3 @@
+<section>
+    <app-recipe *ngFor="let recipeItem of RECIPES" [recipeItem]="recipeItem" (click)=readRecipe(recipeItem.name)></app-recipe>
+</section>

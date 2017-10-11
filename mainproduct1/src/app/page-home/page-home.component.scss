@@ -1,0 +1,53 @@
+@import '../sass/variables.scss';
+@import '../sass/mixins.scss';
+@import '../sass/_base.scss';
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .nav-container {
+        width: 95vw;
+        height: 20vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin-top: 2vh;
+        padding: 0 7.5vw;
+        color: white;
+    }
+    .lunch {
+        background: url('/assets/images/lunchbox.png');
+        background-size: cover;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+    }
+    .recipe {
+        background: url('/assets/images/recipe.png');
+        background-size: cover;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+    }
+    .library {
+        background: url('/assets/images/food_library.png');
+        background-size: cover;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+    }
+    .profile {
+        background: url('/assets/images/pic.png');
+        background-size: cover;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+    }
+}
+
+h2 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

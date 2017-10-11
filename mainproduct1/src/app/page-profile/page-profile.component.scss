@@ -1,0 +1,130 @@
+@import '../sass/variables.scss';
+@import '../sass/mixins.scss';
+@import '../sass/_base.scss';
+.main-container {
+    .profile-container {
+        width: 100vw;
+        height: auto;
+        padding: 3vh 0;
+        display: flex;
+        align-items: center;
+        .profile-img {
+            width: 20vh;
+            height: 20vh;
+            border-radius: 50%;
+            background: url('/assets/images/woody.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0 4vw;
+        }
+        .profile-dtl {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            .profile-name {
+                font-weight: bold;
+                color: $theme-green;
+                font-size: 16pt;
+                margin-bottom: 1vh;
+            }
+            .profile-content {
+                color: $theme-light-grey;
+                font-size: 10pt;
+            }
+        }
+    }
+    .graph-container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw;
+        h2 {
+            margin: 1vh 0;
+        }
+        #graph {
+            width: 100%;
+            height: 30vh;
+        }
+    }
+    .lunch-container {
+        width: 100vw;
+        height: auto;
+        $foodPadding: 4vw;
+        .lunch-food-container {
+            width: 100vw;
+            height: 100%;
+            background: white;
+            padding: $foodPadding 0 $foodPadding $foodPadding;
+            display: -webkit-box;
+            flex-direction: row;
+            overflow-x: scroll;
+            .food {
+                position: relative;
+                height: 20vh;
+                width: 20vh;
+                overflow: hidden;
+                border-radius: 10px;
+                margin-right: $foodPadding;
+                .monday {
+                    width: 100%;
+                    height: 100%;
+                    background: url('/assets/images/lunch1.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+                .tuesday {
+                    width: 100%;
+                    height: 100%;
+                    background: url('/assets/images/lunch2.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+                .wednesday {
+                    width: 100%;
+                    height: 100%;
+                    background: url('/assets/images/lunch3.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+                .thursday {
+                    width: 100%;
+                    height: 100%;
+                    background: url('/assets/images/lunch4.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+                .food-dtl {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.4);
+                    text-transform: uppercase;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .food-day {}
+                }
+            }
+        }
+    }
+}
+
+h2 {
+    font-size: 12pt;
+    color: $theme-light-grey;
+    margin: 1vh $horizontalPadding;
+}
+
+app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
