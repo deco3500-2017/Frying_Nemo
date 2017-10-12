@@ -29,6 +29,7 @@ export class PageRecipeCreateComponent implements OnInit {
   description: string;
   instructions: string[];
   ingredients: string[];
+  ingredientFormArray;
   constructor(
     private _fb: FormBuilder,
     private router: Router
@@ -81,8 +82,21 @@ export class PageRecipeCreateComponent implements OnInit {
       recipeInstructions: [[]],
       instruction: ['',[Validators.required]],
       // recipeInstructions: [[], [Validators.required]],
-      // recipeIngredient: ['', Validators.required]
+      recipeIngredient: this._fb.array([])
     })
+  }
+
+  // this is for the ingredients checkbox
+  onChange(ingredient:string, isChecked: boolean){
+    this.ingredientFormArray = <FormArray>this.recipeForm.controls.recipeIngredient;
+    
+    if(isChecked){
+      this.ingredientFormArray.push(new FormControl(ingredient));
+    } else {
+      let index = this.ingredientFormArray.controls.findIndex(x => x.value == ingredient)
+      this.ingredientFormArray.removeAt(index);
+    }
+    console.log(this.ingredientFormArray.value)
   }
 
   addInstruction() {
@@ -96,14 +110,15 @@ export class PageRecipeCreateComponent implements OnInit {
     this.name = this.recipeForm.get('recipeName').value;
     this.description = this.recipeForm.get('recipeDescription').value;
     this.instructions = this.recipeForm.get('recipeInstructions').value;
+    this.ingredients = this.ingredientFormArray.value;
     console.log(this.instructions)
     this.recipe = {
       name: this.name,
       instruction: this.instructions,
       description: this.description,
       sharedRecipe: false,
-      ingredients: [''],
-      imgURL: './assets/images/recipes/lunchbox.png'
+      ingredients: this.ingredients,
+      imgURL: './assets/images/box.png'
     }
     recipeList.push(this.recipe);
     console.log(recipeList);

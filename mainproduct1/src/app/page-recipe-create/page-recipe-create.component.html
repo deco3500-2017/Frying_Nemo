@@ -27,25 +27,25 @@
             <!-- For meat -->
             <section *ngIf="meatType">
                 <div *ngFor="let meat of  meats">
-                    <input type="checkbox" [value]="meat.name"> {{meat.name}}
+                    <input type="checkbox" (change)="onChange(meat.name, $event.target.checked)"> {{meat.name}}
                 </div>
             </section>
             <!-- For seafood -->
             <section *ngIf="seafoodType">
                 <div *ngFor="let seafood of  seafoods">
-                    <input type="checkbox" [value]="seafood.name"> {{seafood.name}}
+                    <input type="checkbox" (change)="onChange(seafood.name, $event.target.checked)"> {{seafood.name}}
                 </div>
             </section>
             <!-- For vegetable -->
             <section *ngIf="vegetableType">
                 <div *ngFor="let vegetable of  vegetables">
-                    <input type="checkbox" [value]="vegetable.name"> {{vegetable.name}}
+                    <input type="checkbox" (change)="onChange(vegetable.name, $event.target.checked)"> {{vegetable.name}}
                 </div>
             </section>
             <!-- For fruit -->
             <section *ngIf="fruitType">
                 <div *ngFor="let fruit of  fruits">
-                    <input type="checkbox" [value]="fruit.name"> {{fruit.name}}
+                    <input type="checkbox" (change)="onChange(fruit.name, $event.target.checked)"> {{fruit.name}}
                 </div>
             </section>
         </div>
