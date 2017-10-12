@@ -1,0 +1,12 @@
+@import '../sass/variables.scss';
+@import '../sass/mixins.scss';
+@import '../sass/_base.scss';
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    app-recipe {
+        width: 47.5%;
+    }
+}
