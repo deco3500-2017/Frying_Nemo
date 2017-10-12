@@ -2,7 +2,7 @@
     <form [formGroup]='recipeForm' (ngSubmit)="onSubmitForm(recipeForm)">
         <div class="field">
             <label for="name" class="name">Name</label>
-            <input type="text" formControlName="recipeName">
+            <input type="text" formControlName="recipeName" maxlength="25">
             <!--display error message if name is not valid-->
             <small *ngIf="!recipeForm.controls.recipeName.valid" class="text-danger">
                 Name is required (minimum 3 characters).

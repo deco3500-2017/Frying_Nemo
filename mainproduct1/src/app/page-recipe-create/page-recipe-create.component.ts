@@ -30,7 +30,8 @@ export class PageRecipeCreateComponent implements OnInit {
   instructions: string[];
   ingredients: string[];
   ingredientFormArray;
-  insturctionFormArray: string[] = [];
+  instructionArrays;
+  insturctionList: string[] = [];
   constructor(
     private _fb: FormBuilder,
     private router: Router
@@ -109,19 +110,18 @@ export class PageRecipeCreateComponent implements OnInit {
 
   addInstruction() {
     // add address to the list
-    let instructionArrays = <FormArray>this.recipeForm.controls['recipeInstructions'];
-    instructionArrays.push(this.initInstruction());
-    for (let i = 0; i < instructionArrays.value.length; i++){
-      this.insturctionFormArray.push(instructionArrays.value[i].instruction)
-    }
-    // console.log(this.insturctionFormArray)
+    this.instructionArrays = <FormArray>this.recipeForm.controls['recipeInstructions'];
+    this.instructionArrays.push(this.initInstruction());
   }
 
   onSubmitForm(recipeForm) {
+    for (let i = 0; i < this.instructionArrays.value.length; i++){
+      this.insturctionList.push(this.instructionArrays.value[i].instruction)
+    }
     this.name = this.recipeForm.get('recipeName').value;
     this.description = this.recipeForm.get('recipeDescription').value;
-    this.instructions = this.recipeForm.get('recipeInstructions').value;
-    this.ingredients = this.insturctionFormArray;
+    this.instructions = this.insturctionList;
+    this.ingredients = this.ingredientFormArray;
     this.recipe = {
       name: this.name,
       instruction: this.instructions,
