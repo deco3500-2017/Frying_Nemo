@@ -30,6 +30,16 @@
                 border: 0;
             }
         }
+        .ingredient-list {
+            width: 100%;
+            height: auto;
+            .ingredient-label {
+                display: flex;
+                .ingredients {
+                    margin-right: 4vw;
+                }
+            }
+        }
         input[type=text],
         select {
             box-sizing: border-box;
@@ -68,5 +78,9 @@ app-footer {
 
 .add {
     font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.name {
     text-decoration: underline;
 }

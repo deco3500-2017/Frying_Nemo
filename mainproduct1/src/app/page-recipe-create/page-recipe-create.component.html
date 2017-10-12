@@ -1,7 +1,7 @@
 <div class="main-container">
     <form [formGroup]='recipeForm' (ngSubmit)="onSubmitForm(recipeForm)">
         <div class="field">
-            <label for="name">Name</label>
+            <label for="name" class="name">Name</label>
             <input type="text" formControlName="recipeName">
             <!--display error message if name is not valid-->
             <small *ngIf="!recipeForm.controls.recipeName.valid" class="text-danger">
@@ -9,33 +9,72 @@
             </small>
         </div>
         <div class="field">
-            <label for="name">Description</label>
+            <label for="name" class="name">Description</label>
             <textarea name="description" id="" cols="30" rows="10" formControlName="recipeDescription"></textarea>
             <!--display error message if name is not valid-->
             <small *ngIf="!recipeForm.controls.recipeDescription.valid" class="text-danger">
                 Name is required (minimum 5 characters).
             </small>
         </div>
+        <div class="ingredient-list field">
+            <label for="name" class="name">Ingredients</label>
+            <div class="ingredient-label">
+                <div class="ingredients" (click)="show('meat')">Meat</div>
+                <div class="ingredients" (click)="show('seafood')">Seafood</div>
+                <div class="ingredients" (click)="show('vegetable')">Vegetable</div>
+                <div class="ingredients" (click)="show('fruit')">Fruit</div>
+            </div>
+            <!-- For meat -->
+            <section *ngIf="meatType">
+                <div *ngFor="let meat of  meats">
+                    <input type="checkbox" [value]="meat.name"> {{meat.name}}
+                </div>
+            </section>
+            <!-- For seafood -->
+            <section *ngIf="seafoodType">
+                <div *ngFor="let seafood of  seafoods">
+                    <input type="checkbox" [value]="seafood.name"> {{seafood.name}}
+                </div>
+            </section>
+            <!-- For vegetable -->
+            <section *ngIf="vegetableType">
+                <div *ngFor="let vegetable of  vegetables">
+                    <input type="checkbox" [value]="vegetable.name"> {{vegetable.name}}
+                </div>
+            </section>
+            <!-- For fruit -->
+            <section *ngIf="fruitType">
+                <div *ngFor="let fruit of  fruits">
+                    <input type="checkbox" [value]="fruit.name"> {{fruit.name}}
+                </div>
+            </section>
+        </div>
 
         <!-- List for instructions -->
-        <div formArrayName="recipeInstructions">
-            <div *ngFor="let insturction of recipeForm.controls.recipeInstructions.controls; let i=index" class="panel panel-default">
-                <div class="panel-heading">
-                    <span>Insturctions {{i + 1}}</span>
-                    <span *ngIf="recipeForm.controls.recipeInstructions.controls.length > 1" (click)="removeInsturction(i)"></span>
-                </div>
-                <div class="panel-body" [formGroupName]="i">
-                    <input type="text" class="form-control" formControlName="instruction">
+        <div>
+            <div>
+                <span class="name">Insturctions</span>
+                <input type="text" formControlName="instruction">
+                <!--display error message if name is not valid-->
+                <small [hidden]="recipeForm.controls.instruction.valid">
+                    Insturctions is required
+                </small>
+            </div>
+            <div>
+                <div *ngFor="let insturction of recipeForm.controls.recipeInstructions.value; let i=index">
+                    <span class="name">Insturctions {{i+2}}</span>
+                    <input type="text" formControlName="instruction">
                     <!--display error message if name is not valid-->
-                    <small [hidden]="recipeForm.controls.recipeInstructions.controls[i].controls.instruction.valid" class="text-danger">
+                    <small [hidden]="recipeForm.controls.instruction.valid">
                         Insturctions is required
                     </small>
                 </div>
             </div>
+            <div class="add" (click)="addInstruction()" *ngIf="recipeForm.controls.recipeInstructions.valid">
+                Add another Insturction
+            </div>
         </div>
-        <div class="add" (click)="addInstruction()" *ngIf="recipeForm.controls.recipeInstructions.valid">
-            Add another Insturction
-        </div>
+
         <input type="submit" value="Create" [disabled]="!recipeForm.valid">
     </form>
 </div>
