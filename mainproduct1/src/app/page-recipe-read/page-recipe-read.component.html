@@ -8,6 +8,9 @@
     </div>
     <div class="recipe-ingredient">
         <div class="title">Ingredient</div>
+        <div class="ingredient" *ngFor="let ingredient of recipe.ingredients; index as i">
+            {{i + 1}}. {{recipe.ingredients[i]}}
+        </div>
     </div>
     <div class="recipe-instruction">
         <div class="title">Instruction</div>

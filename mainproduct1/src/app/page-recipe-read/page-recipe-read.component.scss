@@ -32,6 +32,9 @@
     .recipe-ingredient {
         width: 100%;
         height: auto;
+        .ingredient {
+            margin-left: $horizontalPadding;
+        }
     }
     .recipe-instruction {
         width: 100%;
