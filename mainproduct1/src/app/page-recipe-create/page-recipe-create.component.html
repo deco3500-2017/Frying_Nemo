@@ -51,23 +51,21 @@
         </div>
 
         <!-- List for instructions -->
-        <div>
-            <div>
-                <span class="name">Insturctions</span>
-                <input type="text" formControlName="instruction">
-                <!--display error message if name is not valid-->
-                <small [hidden]="recipeForm.controls.instruction.valid">
-                    Insturctions is required
-                </small>
-            </div>
-            <div>
-                <div *ngFor="let insturction of recipeForm.controls.recipeInstructions.value; let i=index">
-                    <span class="name">Insturctions {{i+2}}</span>
-                    <input type="text" formControlName="instruction">
-                    <!--display error message if name is not valid-->
-                    <small [hidden]="recipeForm.controls.instruction.valid">
+        <div class="field">
+            <!-- List for instructions -->
+            <div formArrayName="recipeInstructions" class="field">
+                <div *ngFor="let insturction of recipeForm.controls.recipeInstructions.controls; let i=index">
+                    <div>
+                        <span class="name">Insturctions {{i + 1}}</span>
+                        <span *ngIf="recipeForm.controls.recipeInstructions.controls.length > 1" (click)="removeInsturction(i)"></span>
+                    </div>
+                    <div [formGroupName]="i">
+                        <input type="text" formControlName="instruction">
+                        <!--display error message if name is not valid-->
+                        <small [hidden]="recipeForm.controls.recipeInstructions.controls[i].controls.instruction.valid">
                         Insturctions is required
                     </small>
+                    </div>
                 </div>
             </div>
             <div class="add" (click)="addInstruction()" *ngIf="recipeForm.controls.recipeInstructions.valid">

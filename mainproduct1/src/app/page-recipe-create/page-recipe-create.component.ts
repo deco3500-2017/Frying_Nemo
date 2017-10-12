@@ -30,6 +30,7 @@ export class PageRecipeCreateComponent implements OnInit {
   instructions: string[];
   ingredients: string[];
   ingredientFormArray;
+  insturctionFormArray: string[] = [];
   constructor(
     private _fb: FormBuilder,
     private router: Router
@@ -79,8 +80,9 @@ export class PageRecipeCreateComponent implements OnInit {
     this.recipeForm = this._fb.group({
       recipeName: ['', [Validators.required, Validators.minLength(3)]],
       recipeDescription: ['', [Validators.required, Validators.minLength(5)]],
-      recipeInstructions: [[]],
-      instruction: ['',[Validators.required]],
+      recipeInstructions: this._fb.array([
+        this.initInstruction(),
+      ]),
       // recipeInstructions: [[], [Validators.required]],
       recipeIngredient: this._fb.array([])
     })
@@ -96,22 +98,30 @@ export class PageRecipeCreateComponent implements OnInit {
       let index = this.ingredientFormArray.controls.findIndex(x => x.value == ingredient)
       this.ingredientFormArray.removeAt(index);
     }
-    console.log(this.ingredientFormArray.value)
   }
 
+  initInstruction() {
+    return this._fb.group({
+      instruction: ['', [Validators.required, Validators.minLength(3)]]
+    })
+  }
+
+
   addInstruction() {
-     let instructions = this.recipeForm.get('recipeInstructions').value;
-     console.log(instructions)
-     instructions.push(this.recipeForm.get('instruction').value);
-     console.log(instructions)
+    // add address to the list
+    let instructionArrays = <FormArray>this.recipeForm.controls['recipeInstructions'];
+    instructionArrays.push(this.initInstruction());
+    for (let i = 0; i < instructionArrays.value.length; i++){
+      this.insturctionFormArray.push(instructionArrays.value[i].instruction)
+    }
+    // console.log(this.insturctionFormArray)
   }
 
   onSubmitForm(recipeForm) {
     this.name = this.recipeForm.get('recipeName').value;
     this.description = this.recipeForm.get('recipeDescription').value;
     this.instructions = this.recipeForm.get('recipeInstructions').value;
-    this.ingredients = this.ingredientFormArray.value;
-    console.log(this.instructions)
+    this.ingredients = this.insturctionFormArray;
     this.recipe = {
       name: this.name,
       instruction: this.instructions,
