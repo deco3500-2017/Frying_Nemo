@@ -17,7 +17,7 @@ export const recipeList: recipe[] = [
         description: '',
         sharedRecipe: true,
         ingredients: ['tomato', 'egg', 'chicken stock', 'sugar'],
-        imgURL: null
+        imgURL: '/assets/images/box.png'
     },
     {
         name: 'Kimchi Fried Chicken',
@@ -25,6 +25,6 @@ export const recipeList: recipe[] = [
         description: '',
         sharedRecipe: true,
         ingredients: ['Chicken Drumstick', 'Kimchi', 'Bim Bim Bap Paste'],
-        imgURL: null
+        imgURL: '/assets/images/box.png'
     }
 ]
