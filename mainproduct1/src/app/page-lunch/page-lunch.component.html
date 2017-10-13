@@ -48,6 +48,16 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget mauris quis magna feugiat ullamcorper. Suspendisse ullamcorper leo ac ex mattis bibendum.
                 </div>
             </div>
+            <div class="ingredients-field">
+                <div class="ingredients-field-left">
+                    Ingredients:
+                </div>
+                <div class="ingredients-field-right" *ngFor="let ingredient of Ingredients">
+                    <div class="ingredient">
+                        <img src={{ingredient.imgURL}} alt="">
+                    </div>
+                </div>
+            </div>
             <div class="food-nutrition-field">
                 <div class="food-nutrition-field-left">
                     Carbohydrates:

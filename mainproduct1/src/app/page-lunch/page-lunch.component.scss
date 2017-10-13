@@ -54,6 +54,34 @@
                     text-align: center;
                 }
             }
+            .ingredients-field {
+                width: 100%;
+                height: auto;
+                border-top: rgba(200, 200, 200, 0.5) solid 1px;
+                background: white;
+                padding: 0.5vh $horizontalPadding;
+                display: flex;
+                .ingredients-field-left {
+                    width: 35%;
+                    height: 100%;
+                    font-size: 1rem;
+                    padding: 0 5vw;
+                }
+                .ingredients-field-right {
+                    width: auto;
+                    height: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .ingredient {
+                        width: auto;
+                        height: 5vh;
+                        margin-right: 1.5vw;
+                        img {
+                            max-height: 100%
+                        }
+                    }
+                }
+            }
         }
     }
     .lunch-container {

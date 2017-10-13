@@ -7,7 +7,7 @@ export const recipeList: recipe[] = [
         instruction: ['dice','fry','eat'],
         description: 'Savory muffins that are flavored with garlicky ramps. Great for bentos, especially when made in mini-size.',
         sharedRecipe: false,
-        ingredients: ['pesto', 'bread'],
+        ingredients: ['tomato', 'cucumber'],
         imgURL: '/assets/images/pestomuffin.jpeg',
 
     },
