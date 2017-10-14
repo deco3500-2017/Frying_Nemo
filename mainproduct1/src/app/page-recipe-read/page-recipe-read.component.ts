@@ -38,7 +38,6 @@ export class PageRecipeReadComponent implements OnInit {
         }
       }
     }
-    console.log(this.ingredientList);
     // console.log(this.Ingredients)
     for(let x = 0; x < this.ingredientList.length; x++) {
       this.carbohydrates += this.ingredientList[x].carbohydrates;
@@ -55,6 +54,10 @@ export class PageRecipeReadComponent implements OnInit {
         this.recipe = recipeList[i];
       }
     }
+  }
+
+  shareRecipe() {
+    this.recipe.sharedRecipe = true;
   }
 
 }

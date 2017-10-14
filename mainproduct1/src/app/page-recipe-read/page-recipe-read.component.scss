@@ -5,10 +5,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .share {
+        position: absolute;
+        right: 3vw;
+        top: 9.5vh;
+        border-radius: 5px;
+        background: $theme-blue;
+        padding: 1vh 1vw;
+        color: white;
+        opacity: 0.7;
+    }
     .recipe-image {
         margin-top: 2vh;
         width: 60%;
         height: auto;
+        position: relative;
         img {
             max-width: 100%;
             max-height: 100%;

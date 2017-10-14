@@ -1,6 +1,10 @@
 <div class="main-container">
+    <div class="share" (click)="shareRecipe()" routerLink="/recipe/shared">
+        Share
+    </div>
     <div class="recipe-image">
         <img src={{recipe.imgURL}} alt="">
+
     </div>
     <div class="recipe-name">{{recipe.name}}</div>
     <div class="recipe-description">
