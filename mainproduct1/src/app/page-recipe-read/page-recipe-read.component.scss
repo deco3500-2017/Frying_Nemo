@@ -95,8 +95,35 @@ h2 {
     margin-left: $horizontalPadding;
 }
 
-app-footer {
+.bottom-container {
     position: fixed;
-    bottom: 0;
+    bottom: 0vh;
     left: 0;
+    width: 100vw;
+    height: $headerHeight;
+    background: white !important;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12pt;
+    color: $theme-blue;
+    .bottom-container-content {
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+        font-weight: bold;
+        display: flex;
+        .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50vw;
+            height: 100%;
+            transition: all 0.3s;
+            background: white;
+            border: $theme-blue solid 2px;
+            opacity: 0.8;
+        }
+    }
 }

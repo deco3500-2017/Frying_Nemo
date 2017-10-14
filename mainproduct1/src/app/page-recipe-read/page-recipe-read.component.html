@@ -1,10 +1,6 @@
 <div class="main-container">
-    <div class="share" (click)="shareRecipe()" routerLink="/recipe/shared">
-        Share
-    </div>
     <div class="recipe-image">
         <img src={{recipe.imgURL}} alt="">
-
     </div>
     <div class="recipe-name">{{recipe.name}}</div>
     <div class="recipe-description">
@@ -67,4 +63,9 @@
     </div>
 </div>
 
-<app-footer></app-footer>
+<div class="bottom-container">
+    <div class="bottom-container-content">
+        <div class="link" (click)="shareRecipe()" routerLink="/recipe/shared">Share recipe</div>
+        <div class="link" routerLink="/recipe" routerLinkActive="currentPage">Add to lunchbox</div>
+    </div>
+</div>

@@ -26,6 +26,7 @@ import { RecipeService } from './recipe.service';
 import { IngredientService } from './ingredient.service';
 import { PageLibraryIngredientComponent } from './page-library-ingredient/page-library-ingredient.component';
 import { PageRecipeReadComponent } from './page-recipe-read/page-recipe-read.component';
+import { PageShoppingComponent } from './page-shopping/page-shopping.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { PageRecipeReadComponent } from './page-recipe-read/page-recipe-read.com
     PageLibraryTypeComponent,
     PageLibraryMainComponent,
     PageLibraryIngredientComponent,
-    PageRecipeReadComponent
+    PageRecipeReadComponent,
+    PageShoppingComponent
   ],
   imports: [
     BrowserModule,
