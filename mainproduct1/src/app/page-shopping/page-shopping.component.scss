@@ -1,0 +1,12 @@
+@import '../sass/variables.scss';
+@import '../sass/mixins.scss';
+@import '../sass/_base.scss';
+.main-container {
+    font-size: 12pt;
+}
+
+app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
