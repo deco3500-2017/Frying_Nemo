@@ -99,6 +99,7 @@ export class PageRecipeCreateComponent implements OnInit {
       let index = this.ingredientFormArray.controls.findIndex(x => x.value == ingredient)
       this.ingredientFormArray.removeAt(index);
     }
+    console.log(this.ingredientFormArray.value)
   }
 
   initInstruction() {
@@ -121,7 +122,7 @@ export class PageRecipeCreateComponent implements OnInit {
     this.name = this.recipeForm.get('recipeName').value;
     this.description = this.recipeForm.get('recipeDescription').value;
     this.instructions = this.insturctionList;
-    this.ingredients = this.ingredientFormArray;
+    this.ingredients = this.ingredientFormArray.value;
     this.recipe = {
       name: this.name,
       instruction: this.instructions,

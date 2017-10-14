@@ -11,6 +11,11 @@ import { ingredientLibrary } from '../data/ingredient-library';
   styleUrls: ['./page-lunch.component.scss']
 })
 export class PageLunchComponent implements OnInit {
+  carbohydrates: number = 0;
+  protein: number = 0;
+  sodium: number = 0;
+  cholesterol: number = 0;
+  fat: number = 0;
   Ingredients: Ingredient[] = [];
   recipeIngredient: string[];
   constructor(
@@ -26,7 +31,14 @@ export class PageLunchComponent implements OnInit {
         }
       }
     }
-    console.log(this.Ingredients);
+    // console.log(this.Ingredients)
+    for(let x = 0; x < this.Ingredients.length; x++) {
+      this.carbohydrates += this.Ingredients[x].carbohydrates;
+      this.protein += this.Ingredients[x].protein;
+      this.sodium += this.Ingredients[x].sodium;
+      this.cholesterol += this.Ingredients[x].cholesterol;
+      this.fat  += this.Ingredients[x].fat;
+    }
   }
 
   ngOnInit() {
