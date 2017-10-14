@@ -43,5 +43,8 @@ export class PageLunchComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
+  goToIngredient(name: string){
+    this.router.navigate(['/library/ingredient', name]);
+  }
 }

@@ -1,39 +1,5 @@
 <app-header></app-header>
 <div class="main-container">
-    <!-- <div class="daily-container">
-        <h2>Today's Lunch Box</h2>
-        <div class="daily-food-container">
-            <div class="daily-left">
-                <img src="./assets/images/lunch3.jpg" alt="">
-                <div>Korean Fried Chicken</div>
-            </div>
-            <div class="daily-right">
-                <div class="nutrition">
-                    Nutrition
-                </div>
-                <div class="nutrition-dtl">
-                    <div class="nutrition-name">carbohydrates</div>
-                    <div class="nutrition-amount">9g</div>
-                </div>
-                <div class="nutrition-dtl">
-                    <div class="nutrition-name">Protein</div>
-                    <div class="nutrition-amount">25g</div>
-                </div>
-                <div class="nutrition-dtl">
-                    <div class="nutrition-name">Sodium</div>
-                    <div class="nutrition-amount">20mg</div>
-                </div>
-                <div class="nutrition-dtl">
-                    <div class="nutrition-name">Cholesterol</div>
-                    <div class="nutrition-amount">0mg</div>
-                </div>
-                <div class="nutrition-dtl">
-                    <div class="nutrition-name">Fat</div>
-                    <div class="nutrition-amount">11g</div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <div class="daily-container">
         <h2>Today's Lunch Box</h2>
         <div class="daily-food-image">
@@ -53,7 +19,7 @@
                     Ingredients:
                 </div>
                 <div class="ingredients-field-right" *ngFor="let ingredient of Ingredients">
-                    <div class="ingredient">
+                    <div class="ingredient" (click)="goToIngredient(ingredient.name)">
                         <img src={{ingredient.imgURL}} alt="">
                     </div>
                 </div>
@@ -100,39 +66,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="lunch-container">
-        <h2>Lunch of the week</h2>
-        <div class="lunch-food-container">
-            <div class="food">
-                <div class="wednesday"></div>
-                <div class="food-dtl">
-                    <div class="food-day">wednesday</div>
-                    <div class="food-date">4 oct</div>
-                </div>
-            </div>
-            <div class="food">
-                <div class="thursday"></div>
-                <div class="food-dtl">
-                    <div class="food-day">thursday</div>
-                    <div class="food-date">5 sept</div>
-                </div>
-            </div>
-            <div class="food">
-                <div class="monday"></div>
-                <div class="food-dtl">
-                    <div class="food-day">monday</div>
-                    <div class="food-date">6 oct</div>
-                </div>
-            </div>
-            <div class="food">
-                <div class="tuesday"></div>
-                <div class="food-dtl">
-                    <div class="food-day">tuesday</div>
-                    <div class="food-date">7 oct</div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </div>
 
 <app-footer></app-footer>

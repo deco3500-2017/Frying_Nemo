@@ -2,6 +2,7 @@
 @import '../sass/mixins.scss';
 @import '../sass/_base.scss';
 .main-container {
+    height: 98vh;
     display: flex;
     flex-direction: column;
     align-items: center;
