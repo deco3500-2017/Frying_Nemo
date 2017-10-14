@@ -99,7 +99,6 @@ export class PageRecipeCreateComponent implements OnInit {
       let index = this.ingredientFormArray.controls.findIndex(x => x.value == ingredient)
       this.ingredientFormArray.removeAt(index);
     }
-    console.log(this.ingredientFormArray.value)
   }
 
   initInstruction() {
@@ -132,7 +131,6 @@ export class PageRecipeCreateComponent implements OnInit {
       imgURL: './assets/images/box.png'
     }
     recipeList.push(this.recipe);
-    console.log(recipeList);
     this.router.navigate(['/recipe/private']);
   }
 
