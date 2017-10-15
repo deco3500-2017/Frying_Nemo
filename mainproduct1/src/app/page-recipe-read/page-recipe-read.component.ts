@@ -22,7 +22,8 @@ export class PageRecipeReadComponent implements OnInit {
   recipe: recipe;
   isRecipeShared: boolean;
   constructor(
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit() {
@@ -67,10 +68,8 @@ export class PageRecipeReadComponent implements OnInit {
     if (lunchBoxLibrary.length > 0){
       lunchBoxLibrary.push(this.recipe);
       lunchBoxLibrary.shift();
-      console.log(lunchBoxLibrary)
     } else {
       lunchBoxLibrary.push(this.recipe);
-      console.log(lunchBoxLibrary)
     }
   }
 }

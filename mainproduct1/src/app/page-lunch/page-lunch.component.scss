@@ -152,6 +152,25 @@
     }
 }
 
+.no-lunch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    h1 {
+        font-size: 1.7rem;
+        width: 80%;
+    }
+    .add-lunchbox {
+        border: $theme-blue solid 1px;
+        border-radius: 5px;
+        color: $theme-blue;
+        padding: 1vh 2vw;
+        margin-top: 5vh;
+    }
+}
+
 h2 {
     font-size: 1rem;
     color: $theme-light-grey;

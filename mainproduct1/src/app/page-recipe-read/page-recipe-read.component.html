@@ -66,6 +66,6 @@
 <div class="bottom-container">
     <div class="bottom-container-content">
         <div class="link" *ngIf="!isRecipeShared" (click)="shareRecipe()" routerLink="/recipe/shared">Share recipe</div>
-        <div class="link" routerLinkActive="currentPage" (click)="addLunchBox()">Add to lunchbox</div>
+        <div class="link" routerLink="/lunch" (click)="addLunchBox()">Add to lunchbox</div>
     </div>
 </div>

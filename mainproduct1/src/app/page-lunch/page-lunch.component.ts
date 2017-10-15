@@ -4,6 +4,8 @@ import { recipe } from '../classes/recipe';
 import { Router } from '@angular/router';
 import { Ingredient } from '../classes/ingredient';
 import { ingredientLibrary } from '../data/ingredient-library';
+import { lunchBoxLibrary } from '../data/lunchbox-library';
+
 
 @Component({
   selector: 'app-page-lunch',
@@ -11,6 +13,11 @@ import { ingredientLibrary } from '../data/ingredient-library';
   styleUrls: ['./page-lunch.component.scss']
 })
 export class PageLunchComponent implements OnInit {
+  // This is for the lunchbox
+  isLunchBoxEmpty: boolean = true;
+  recipe: recipe;
+
+  // This is for the nutritions 
   carbohydrates: number = 0;
   protein: number = 0;
   sodium: number = 0;
@@ -21,7 +28,20 @@ export class PageLunchComponent implements OnInit {
   constructor(
     private router: Router,
   ) {
-    this.recipeIngredient = recipeList[0].ingredients;
+    if(lunchBoxLibrary.length > 0) {
+      this.isLunchBoxEmpty = false;
+      this.retrieveRecipe();
+    } else {
+      this.isLunchBoxEmpty = true;
+    }
+  }
+
+  ngOnInit() {
+  }
+  
+  retrieveRecipe() {
+    this.recipe = lunchBoxLibrary[0];
+    this.recipeIngredient = this.recipe.ingredients;
     for (let i = 0; i < this.recipeIngredient.length; i++) {
       // console.log(this.recipeIngredient[i])
       for (let a = 0; a < ingredientLibrary.length; a++) {
@@ -41,9 +61,6 @@ export class PageLunchComponent implements OnInit {
     }
   }
 
-  ngOnInit() {
-  }
-  
   goToIngredient(name: string){
     this.router.navigate(['/library/ingredient', name]);
   }

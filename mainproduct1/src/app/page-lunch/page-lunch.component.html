@@ -1,17 +1,26 @@
 <app-header></app-header>
-<div class="main-container">
+
+<!-- If the lunchbox is not empty -->
+<div class="main-container no-lunch" *ngIf="isLunchBoxEmpty">
+    <h1>The lunch box is empty</h1>
+    <div class="add-lunchbox" routerLink="/recipe/main">Add New Lunch Box</div>
+</div>
+
+<!-- If the lunchbox is not empty -->
+<div class="main-container" *ngIf="!isLunchBoxEmpty">
     <div class="daily-container">
         <h2>Today's Lunch Box</h2>
         <div class="daily-food-image">
-            <img src="./assets/images/lunch3.jpg" alt="">
+            <img src={{recipe.imgURL}} alt="">
         </div>
+        <h3>{{recipe.name}}</h3>
         <div class="daily-food-nutrition">
             <div class="food-nutrition-field">
                 <div class="food-nutrition-field-left">
                     Description:
                 </div>
                 <div class="food-nutrition-field-right" style="text-align: left">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget mauris quis magna feugiat ullamcorper. Suspendisse ullamcorper leo ac ex mattis bibendum.
+                    {{recipe.description}}
                 </div>
             </div>
             <div class="ingredients-field">
