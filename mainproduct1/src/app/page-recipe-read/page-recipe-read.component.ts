@@ -4,6 +4,7 @@ import { recipe } from '../classes/recipe';
 import { recipeList } from '../data/recipe-list';
 import { Ingredient } from '../classes/ingredient';
 import { ingredientLibrary } from '../data/ingredient-library';
+import { lunchBoxLibrary } from '../data/lunchbox-library';
 
 @Component({
   selector: 'app-page-recipe-read',
@@ -19,6 +20,7 @@ export class PageRecipeReadComponent implements OnInit {
   ingredients: string[] = [];
   ingredientList: Ingredient[] = [];
   recipe: recipe;
+  isRecipeShared: boolean;
   constructor(
     private route: ActivatedRoute
   ) { }
@@ -28,6 +30,7 @@ export class PageRecipeReadComponent implements OnInit {
       let recipeName:string = params['recipeName'];
       this.getRecipe(recipeName);
     }).subscribe();
+    this.isRecipeShared = this.recipe.sharedRecipe;
     this.ingredients = this.recipe.ingredients;
     for (let i = 0; i < this.ingredients.length; i++) {
       // console.log(this.recipeIngredient[i])
@@ -60,4 +63,14 @@ export class PageRecipeReadComponent implements OnInit {
     this.recipe.sharedRecipe = true;
   }
 
+  addLunchBox(){
+    if (lunchBoxLibrary.length > 0){
+      lunchBoxLibrary.push(this.recipe);
+      lunchBoxLibrary.shift();
+      console.log(lunchBoxLibrary)
+    } else {
+      lunchBoxLibrary.push(this.recipe);
+      console.log(lunchBoxLibrary)
+    }
+  }
 }
