@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { Ingredient } from '../classes/ingredient';
 import { ingredientLibrary } from '../data/ingredient-library';
 import { lunchBoxLibrary } from '../data/lunchbox-library';
+import { shoppingList } from '../data/shopping-list';
 
 
 @Component({
@@ -48,6 +49,7 @@ export class PageLunchComponent implements OnInit {
         // console.log(ingredientLibrary[a].name)
         if (this.recipeIngredient[i].toLowerCase() == ingredientLibrary[a].name.toLowerCase()) {
           this.Ingredients.push(ingredientLibrary[a]);
+          shoppingList.push(ingredientLibrary[a].name);
         }
       }
     }

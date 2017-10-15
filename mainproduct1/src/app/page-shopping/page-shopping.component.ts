@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { shoppingList } from '../data/shopping-list';
-import { ShoppingList } from '../classes/shoppinglist';
 
 @Component({
   selector: 'app-page-shopping',
@@ -9,9 +8,9 @@ import { ShoppingList } from '../classes/shoppinglist';
 })
 export class PageShoppingComponent implements OnInit {
   
-  myShoppingList: ShoppingList;
+  myShoppingList: string[];
   constructor() { 
-    this.myShoppingList = shoppingList[0];
+    this.myShoppingList = shoppingList;
   }
 
   ngOnInit() {

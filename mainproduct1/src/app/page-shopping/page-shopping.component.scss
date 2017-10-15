@@ -2,7 +2,23 @@
 @import '../sass/mixins.scss';
 @import '../sass/_base.scss';
 .main-container {
-    font-size: 12pt;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        text-decoration: underline;
+        margin-bottom: 5vh;
+    }
+    .ingredient {
+        width: 100vw;
+        height: auto;
+        border-bottom: #999 solid 0.5px;
+        text-align: center;
+    }
+    .ingredient:nth-child(1) {
+        border-top: #999 solid 0.5px;
+    }
 }
 
 app-footer {
