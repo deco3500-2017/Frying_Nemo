@@ -32,6 +32,9 @@ export class PageRecipeCreateComponent implements OnInit {
   ingredientFormArray;
   instructionArrays;
   insturctionList: string[] = [];
+  get formRecipeInstruction() { 
+    return <FormArray>this.recipeForm.get('recipeInstructions'); 
+  }
   constructor(
     private _fb: FormBuilder,
     private router: Router

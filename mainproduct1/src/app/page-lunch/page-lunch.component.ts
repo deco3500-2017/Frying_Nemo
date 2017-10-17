@@ -35,13 +35,15 @@ export class PageLunchComponent implements OnInit {
     } else {
       this.isLunchBoxEmpty = true;
     }
+    
   }
 
   ngOnInit() {
   }
   
   retrieveRecipe() {
-    this.recipe = lunchBoxLibrary[0];
+    // this.recipe = lunchBoxLibrary[0];
+    this.recipe = JSON.parse(localStorage.getItem('lunchBox'));
     this.recipeIngredient = this.recipe.ingredients;
     for (let i = 0; i < this.recipeIngredient.length; i++) {
       // console.log(this.recipeIngredient[i])
@@ -50,6 +52,7 @@ export class PageLunchComponent implements OnInit {
         if (this.recipeIngredient[i].toLowerCase() == ingredientLibrary[a].name.toLowerCase()) {
           this.Ingredients.push(ingredientLibrary[a]);
           shoppingList.push(ingredientLibrary[a].name);
+          localStorage.setItem('shoppingList', JSON.stringify(shoppingList));
         }
       }
     }

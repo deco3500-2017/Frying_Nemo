@@ -22,7 +22,7 @@ export class recipe {
         this.ingredients = ingredients;
         this.rating = rating; 
         if (this.imgURL == null) {
-            this.imgURL = '/assets/images/pestomuffin.jpeg';
+            this.imgURL = '/assets/images/pestomuffin.jpg';
         } else {
             this.imgURL = imgURL;
         }

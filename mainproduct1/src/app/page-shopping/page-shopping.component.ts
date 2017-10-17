@@ -10,7 +10,8 @@ export class PageShoppingComponent implements OnInit {
   
   myShoppingList: string[];
   constructor() { 
-    this.myShoppingList = shoppingList;
+    // this.myShoppingList = shoppingList;
+    this.myShoppingList = JSON.parse(localStorage.getItem('shoppingList'));
   }
 
   ngOnInit() {

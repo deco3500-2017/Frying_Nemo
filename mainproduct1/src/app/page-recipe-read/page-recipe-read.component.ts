@@ -68,8 +68,10 @@ export class PageRecipeReadComponent implements OnInit {
     if (lunchBoxLibrary.length > 0){
       lunchBoxLibrary.push(this.recipe);
       lunchBoxLibrary.shift();
+      localStorage.setItem('lunchBox', JSON.stringify(this.recipe));
     } else {
       lunchBoxLibrary.push(this.recipe);
+      localStorage.setItem('lunchBox', JSON.stringify(this.recipe));
     }
   }
 }

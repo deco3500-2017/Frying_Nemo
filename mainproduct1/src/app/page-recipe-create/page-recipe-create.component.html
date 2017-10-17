@@ -54,10 +54,9 @@
         <div class="field">
             <!-- List for instructions -->
             <div formArrayName="recipeInstructions" class="field">
-                <div *ngFor="let insturction of recipeForm.controls.recipeInstructions.controls; let i=index">
+                <div *ngFor="let insturction of formRecipeInstruction.controls; let i=index">
                     <div>
                         <span class="name">Insturctions {{i + 1}}</span>
-                        <span *ngIf="recipeForm.controls.recipeInstructions.controls.length > 1" (click)="removeInsturction(i)"></span>
                     </div>
                     <div [formGroupName]="i">
                         <input type="text" formControlName="instruction">
