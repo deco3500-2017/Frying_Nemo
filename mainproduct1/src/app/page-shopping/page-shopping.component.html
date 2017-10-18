@@ -2,8 +2,13 @@
 <div class="main-container">
     <h2>To Buy List</h2>
     <div class="shopping-list">
-        <div class="ingredient" *ngFor="let ingredient of myShoppingList">
-            {{ingredient}}
+        <!-- <div class="ingredient" *ngFor="let ingredient of myShoppingList">
+            {{}} {{ingredient}}
+        </div> -->
+        <div class="ingredient" *ngFor="let ingredient of ingredients">
+            <input type="checkbox">
+            <img src={{ingredient.imgURL}} alt="">
+            <div>{{ingredient.name}}</div>
         </div>
     </div>
 </div>
