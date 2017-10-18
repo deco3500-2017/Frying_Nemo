@@ -87,9 +87,6 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 
 
 
-
-
-
 ## Sprint 1
 
 ### Wireframe
@@ -164,12 +161,19 @@ https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
 Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
  
 
-
 ### User testing
 Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
 
+## Sprint 3
+
+### Mobile Web Prototype
+Mobile Web Prototype is a representation of the final product, The aim of this product is to simulate experience on devices that do not have the application on it and also interaction between the application and the users, This will help the team to refine the final product as per feedbacks gathered from the user.
+
+Mobile Web Link:
+https://munch-box.appspot.com/login
+
 ### Mobile Prototype
-Mobile Prototype is a presentation of the final product, it's aim is to simulate the experience and interaction between the web application/mobile application and the user to help with refining the final product.
+Mobile Prototype is a representation of the final product, it's aim is to simulate the experience and interaction between the web application/mobile application and the user to help with refining the final product.
 
 MunchBox APK:
 https://drive.google.com/file/d/0B2GxQ6YSknlCRFJXVWFySHN6VHc/view?usp=sharing
