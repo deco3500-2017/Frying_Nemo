@@ -14,7 +14,7 @@ import { PageRecipePrivateComponent } from './page-recipe-private/page-recipe-pr
 import { PageRecipeSharedComponent } from './page-recipe-shared/page-recipe-shared.component';
 import { RecipeComponent } from './recipe/recipe.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
-import { ReactiveFormsModule} from '@angular/forms';
+import { ReactiveFormsModule, FormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { PageProfileComponent } from './page-profile/page-profile.component';
 import { PageHomeComponent } from './page-home/page-home.component';
@@ -52,6 +52,7 @@ import { PageShoppingComponent } from './page-shopping/page-shopping.component';
     PageShoppingComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import { Router } from '@angular/router';
 import { recipe } from '../classes/recipe';
 import { recipeList } from '../data/recipe-list';
@@ -10,6 +10,7 @@ import { recipeList } from '../data/recipe-list';
 export class RecipeListComponent implements OnInit {
   RECIPES: recipe[] = [];
   @Input() isSharedRecipe: boolean;
+  @Input() recipeType: string;
 
   constructor(
     private router: Router
@@ -20,6 +21,10 @@ export class RecipeListComponent implements OnInit {
     this.getAllRecipes();
   }
 
+  ngOnChanges() {
+      console.log(this.recipeType)
+    }
+  
   getAllRecipes() {
     for (let i = 0; i < recipeList.length; i++) {
       if (recipeList[i].sharedRecipe == this.isSharedRecipe) {
