@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { dishType } from '../data/dish-type';
 import { recipeList } from '../data/recipe-list';
 import { recipe } from '../classes/recipe';
+import { friendList } from '../data/friend-list';
 
 @Component({
   selector: 'app-page-recipe-shared',
@@ -9,9 +10,11 @@ import { recipe } from '../classes/recipe';
   styleUrls: ['./page-recipe-shared.component.scss']
 })
 export class PageRecipeSharedComponent implements OnInit {
+  friendList: string[] = friendList;
   recipes: recipe[] = [];
   dishType: string[] = [];
   recipeType: string;
+  publicStatus: string;
   isRecipeShared: boolean = true;
   constructor() {
     for(let i = 0; i < recipeList.length; i++) {
@@ -30,8 +33,12 @@ export class PageRecipeSharedComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(type){
+  onSelectType(type){
     this.recipeType = type;
+  }
+
+  onSelectPublic(status){
+    this.publicStatus = status;
   }
 
 }

@@ -31,4 +31,8 @@ export class PageRecipePrivateComponent implements OnInit {
 
   }
 
+  onSelect(type){
+    this.recipeType = type;
+  }
+
 }

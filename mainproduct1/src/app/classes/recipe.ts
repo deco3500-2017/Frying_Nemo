@@ -5,6 +5,7 @@ export class recipe {
     description: string;
     sharedRecipe: boolean;
     type: string;
+    createBy: string;
     rating?: number;
     imgURL?: string;
     constructor(
@@ -14,6 +15,7 @@ export class recipe {
         description: string,
         sharedRecipe: boolean,
         type: string,
+        createBy: string,
         rating: number,
         imgURL: string,
     ) {
@@ -22,6 +24,7 @@ export class recipe {
         this.description = description;
         this.sharedRecipe = sharedRecipe;
         this.type = type;
+        this.createBy = createBy;
         this.ingredients = ingredients;
         this.rating = rating; 
         if (this.imgURL == null) {

@@ -1,10 +1,19 @@
 <div class="main-container">
     <div class="filter-container">
-        <div>Filter By:</div>
-        <select [(ngModel)]="recipeType" (ngModelChange)="onSelect(recipeType)">
-            <option value="all" selected="selected">All</option>
-            <option *ngFor="let option of dishType" [value]="option">{{option}}</option>
-        </select>
+        <div class="filter-content">
+            <div class="title">TYPE:</div>
+            <select [(ngModel)]="recipeType" (ngModelChange)="onSelectType(recipeType)">
+                <option value="all" selected="selected">All</option>
+                <option *ngFor="let option of dishType" [value]="option">{{option}}</option>
+            </select>
+        </div>
+        <div class="filter-content">
+            <div class="title">STATUS:</div>
+            <select [(ngModel)]="publicStatus" (ngModelChange)="onSelectPublic(publicStatus)">
+                <option value="public" selected="selected">Public</option>
+                <option *ngFor="let friend of friendList" [value]="friend">{{friend}}</option>
+            </select>
+        </div>
     </div>
-    <app-recipe-list [recipeType]="recipeType" [isSharedRecipe]="isRecipeShared"></app-recipe-list>
+    <app-recipe-list [publicStatus]="publicStatus" [recipeType]="recipeType" [isSharedRecipe]="isRecipeShared"></app-recipe-list>
 </div>
