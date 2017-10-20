@@ -113,6 +113,7 @@ User journry map version 1 (Srpint 1, Week8, updated 13-Sep-2017 )
 Conducted by: Jeremy Ng, Edi Cheung
 
 Evidence of work:
+
 ![user journey 1](https://user-images.githubusercontent.com/12377827/31161678-08601484-a91c-11e7-9a26-7f5f685cabbf.png)
 
 
@@ -170,6 +171,7 @@ User journry map version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
 Conducted by: Jeremy Ng, Edi Cheung
 
 Evidence of work:
+
 ![user-journey](https://user-images.githubusercontent.com/12377827/31161476-ac4cea06-a91a-11e7-9d82-24b51b01e4bd.png)
 
 
