@@ -209,6 +209,7 @@ Creating a main promotional brochure for the upcoming showcase to give potential
 
 Conducted by: Ned Gordon (Sprint3, Week12, 20-Oct-2017 )
 Evidence of work:
+
 ___
 
 
