@@ -22,8 +22,9 @@ export class RecipeListComponent implements OnInit {
   }
 
   ngOnChanges() {
-      console.log(this.recipeType)
-    }
+    this.removeAllRecipes();
+    this.filterRecipes();
+  }
   
   getAllRecipes() {
     for (let i = 0; i < recipeList.length; i++) {
@@ -31,6 +32,22 @@ export class RecipeListComponent implements OnInit {
         this.RECIPES.push(recipeList[i]);
       }
     }
+  }
+
+  filterRecipes() {
+    for (let i = 0; i < recipeList.length; i++) {
+      if (recipeList[i].sharedRecipe == this.isSharedRecipe) {
+         if (recipeList[i].type == this.recipeType) {
+          this.RECIPES.push(recipeList[i]);
+        } else if (this.recipeType == 'all') {
+          this.RECIPES.push(recipeList[i]);
+        }
+      }
+    }
+  }
+
+  removeAllRecipes() {
+    this.RECIPES.splice(0,this.RECIPES.length);
   }
 
   readRecipe(name: string){

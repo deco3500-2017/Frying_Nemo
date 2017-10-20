@@ -7,6 +7,7 @@ export const recipeList: recipe[] = [
         instruction: ['dice', 'fry', 'eat'],
         description: 'Savory muffins that are flavored with garlicky ramps. Great for bentos, especially when made in mini-size.',
         sharedRecipe: false,
+        type: 'Vegan',
         ingredients: ['tomato', 'cucumber'],
         imgURL: '/assets/images/pestomuffin.jpg',
 
@@ -17,6 +18,7 @@ export const recipeList: recipe[] = [
             'To make the sauce add the chicken broth, heavy cream, cream cheese, garlic powder, salt and pepper. Cook over medium heat and whisk until smooth. Add the flour and continue to cook for 1-2 minutes until it starts to thicken. Add the mushrooms and garlic to the sauce followed by the chicken and coat in the creamy sauce. Heat for a couple of minutes and serve immediately.'],
         description: 'Tender and juicy chicken in the most amazing creamy and delicious garlic mushroom sauce! This makes one incredible 30 minute meal!',
         sharedRecipe: true,
+        type: 'Stew',
         ingredients: ['chicken thigh', 'mushroom'],
         imgURL: '/assets/images/box.png'
     },
@@ -26,6 +28,7 @@ export const recipeList: recipe[] = [
         `, `Whisk egg yolks, eggs, cream and three-quarters of the parmesan together in a bowl. Season with salt and pepper.`, `Add egg mixture and pancetta mixture to pasta. Season with salt and pepper. Toss over low heat until well combined. Serve with remaining parmesan.`],
         description: 'Carbonara (Italian: [karboˈnaːra]) is an Italian pasta dish from Rome[1][2] made with egg, hard cheese, seafood, and pepper.',
         sharedRecipe: true,
+        type: 'Pasta & Risotto',
         ingredients: ['Squid', 'prawn', 'scallop', 'mushroom'],
         imgURL: '/assets/images/box.png'
     }

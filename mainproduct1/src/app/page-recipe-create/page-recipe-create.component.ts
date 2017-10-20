@@ -5,6 +5,7 @@ import { recipeList } from '../data/recipe-list';
 import { Router } from '@angular/router';
 import { ingredientLibrary } from '../data/ingredient-library';
 import { Ingredient } from '../classes/ingredient';
+import { dishType } from '../data/dish-type';
 
 @Component({
   selector: 'app-page-recipe-create',
@@ -12,6 +13,7 @@ import { Ingredient } from '../classes/ingredient';
   styleUrls: ['./page-recipe-create.component.scss']
 })
 export class PageRecipeCreateComponent implements OnInit {
+  dishType = dishType;
   recipe: recipe;
   // Ingredients 
   meats: Ingredient[] = [];
@@ -29,6 +31,7 @@ export class PageRecipeCreateComponent implements OnInit {
   description: string;
   instructions: string[];
   ingredients: string[];
+  recipeType: string;
   ingredientFormArray;
   instructionArrays;
   insturctionList: string[] = [];
@@ -88,7 +91,8 @@ export class PageRecipeCreateComponent implements OnInit {
         this.initInstruction(),
       ]),
       // recipeInstructions: [[], [Validators.required]],
-      recipeIngredient: this._fb.array([])
+      recipeIngredient: this._fb.array([]),
+      recipeType: [Validators.required]
     })
   }
 
@@ -125,12 +129,15 @@ export class PageRecipeCreateComponent implements OnInit {
     this.description = this.recipeForm.get('recipeDescription').value;
     this.instructions = this.insturctionList;
     this.ingredients = this.ingredientFormArray.value;
+    this.recipeType = 'vegan'
+
     this.recipe = {
       name: this.name,
       instruction: this.instructions,
       description: this.description,
       sharedRecipe: false,
       ingredients: this.ingredients,
+      type: this.recipeType,
       imgURL: './assets/images/box.png'
     }
     recipeList.push(this.recipe);

@@ -2,11 +2,9 @@
     <div class="filter-container">
         <div>Filter By:</div>
         <select [(ngModel)]="recipeType" (ngModelChange)="onSelect(recipeType)">
-            <option *ngFor="let option of options" [value]="option">{{option}}</option>
+            <option value="all" selected="selected">All</option>
+            <option *ngFor="let option of dishType" [value]="option">{{option}}</option>
         </select>
     </div>
-    <app-recipe-list [recipeType]="recipeType" [isSharedRecipe]="true"></app-recipe-list>
-    <div class="create-recipe">
-        <i class="fa fa-plus-circle fa-3x" aria-hidden="true" routerLink="/recipe/create"></i>
-    </div>
+    <app-recipe-list [recipeType]="recipeType" [isSharedRecipe]="isRecipeShared"></app-recipe-list>
 </div>

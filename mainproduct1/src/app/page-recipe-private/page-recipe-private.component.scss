@@ -13,6 +13,26 @@
         display: flex;
         justify-content: flex-end;
     }
+    .filter-container {
+        margin: 1vh $horizontalPadding;
+        width: 96vw;
+        display: flex;
+        align-items: center;
+        select {
+            flex-grow: 1;
+            margin-left: 5vw;
+            background: white;
+            padding: 1vh 0;
+            font-size: 1.2rem;
+            text-align: center;
+            text-align-last: center;
+        }
+        option {
+            width: 100%;
+            text-align: center;
+            text-align-last: center;
+        }
+    }
     .recipe-container {
         position: relative;
         width: 100%;

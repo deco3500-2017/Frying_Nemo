@@ -9,6 +9,16 @@
             </small>
         </div>
         <div class="field">
+            <label for="type" class="name">Type</label>
+            <select name="type" id="type" formControlName="recipeType">
+                <option *ngFor="let type of dishType" value="type">{{type}}</option>
+            </select>
+            <!--display error message if name is not valid-->
+            <!-- <small *ngIf="!recipeForm.controls.recipeType.valid" class="text-danger">
+                Recipe type is required.
+            </small> -->
+        </div>
+        <div class="field">
             <label for="name" class="name">Description</label>
             <textarea name="description" id="" cols="30" rows="10" formControlName="recipeDescription"></textarea>
             <!--display error message if name is not valid-->
