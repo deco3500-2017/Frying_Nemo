@@ -91,6 +91,7 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 
 ### Wireframe
 Wireframe is the skeleton framework of the interface of the web application, it is used for creating a better representation of idea through lines and vectors. 
+
 Wireframe version 1 (Sprint 2, Week10, updated 1-Oct-2017 )
 
 Conducted by: Edi Cheung
