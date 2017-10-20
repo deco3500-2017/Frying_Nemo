@@ -91,44 +91,49 @@ Conducted the Windows Phone 7 Training Workshop which taught many interested stu
 
 ### Wireframe
 Wireframe is the skeleton framework of the interface of the web application, it is used for creating a better representation of idea through lines and vectors. 
-
-https://drive.google.com/open?id=0Bz9R1CjOQ21ANUJhUG1aY0tHdE0
+Wireframe version 1 (Sprint 2, Week10, updated 1-Oct-2017 )
+Conducted by: Edi Cheung
+Evidence of work: https://drive.google.com/open?id=0Bz9R1CjOQ21ANUJhUG1aY0tHdE0
 
 
 Wireframe version 2 (Sprint 2, Week10, updated 1-Oct-2017 )
-
-https://drive.google.com/open?id=0B2GxQ6YSknlCTHYyYWpNcDMtYzQ
+Conducted by: Kelvin Ding Wei Sheng
+Evidence of work: https://drive.google.com/open?id=0B2GxQ6YSknlCTHYyYWpNcDMtYzQ
 
 ### User journey map
 User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
 
 User journry map version 1 (Srpint 1, Week8, updated 13-Sep-2017 )
-
+Conducted by: Jeremy Ng, Edi Cheung
+Evidence of work:
 ![user journey 1](https://user-images.githubusercontent.com/12377827/31161678-08601484-a91c-11e7-9a26-7f5f685cabbf.png)
+
 
 
 ### Mockup
 Mockup is a realistic desgin representaion of the layout of the web application with the support of the visual design, visualised content and basic functionalities of the product.
 Mockup user testing 1 (Week7, updated 4-Sep-2017 )
-
-https://drive.google.com/open?id=0B7qYjwpry_vPN3JBeGxZMWxiQUU
+Conducted by: Kelvin Ding Wei Sheng
+Evidence of work: https://drive.google.com/open?id=0B7qYjwpry_vPN3JBeGxZMWxiQUU
 
 Mockup user testing 2 (Srpint 1, Week8, updated 11-Sep-2017 )
-
-https://marvelapp.com/4iga8bd/screen/32252576
+Conducted by: Minh Tran
+Evidence of work: https://marvelapp.com/4iga8bd/screen/32252576
 
 
 ### Prototype
 Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
  
 Prototype
-
-https://marvelapp.com/4iga8bd/screen/32252576
+Conducted by: Jeremy Ng (Srpint 1, Week9, updated 18-Sep-2017 )
+Evidence of work: https://marvelapp.com/4iga8bd/screen/32252576
 
 ### User testing
 Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
 
 Plan after user testing 1, we decided to slightlt modified to design and the flow of the design, work will be evenly distributed to all team members.
+
+Conducted by: Minh Tran (Srpint 1, Week9, 19-Sep-2017 )
 
 
 ## Sprint 2
@@ -138,6 +143,8 @@ Wireframe is the skeleton framework of the interface of the web application, it 
 
 
 Wireframe version 2 (Srpint 2, Week10, updated 1-Oct-2017 )
+Conducted by: Kelvin Ding Wei Sheng, Edi Cheung
+Evidence of work: https://drive.google.com/drive/folders/0B2GxQ6YSknlCTHYyYWpNcDMtYzQ?usp=sharing
 
 ### User journey map
 User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
@@ -145,7 +152,8 @@ User journey map is a demonstration of the user behaviour through identifying th
 
 
 User journry map version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
-
+Conducted by: Jeremy Ng, Edi Cheung
+Evidence of work:
 ![user-journey](https://user-images.githubusercontent.com/12377827/31161476-ac4cea06-a91a-11e7-9d82-24b51b01e4bd.png)
 
 
@@ -153,31 +161,54 @@ User journry map version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
 Mockup is a realistic desgin representaion of the layout of the web application with the support of the visual design, visualised content and basic functionalities of the product.
 
 Mockup user testing 3 (Srpint 2, Week10, updated 2-Oct-2017 )
-
-https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
+Conducted by: Kelvin Ding Wei Sheng, Minh Tran
+Evidence of work: https://drive.google.com/open?id=0B7qYjwpry_vPeDZaYk1oeE15Z2c
 
 
 ### Prototype
 Prototype is a high fidelity representation of the final product, it aims to similate the experience and interaction between the web application and the users in order to step into the final refinement for the final product.
+
+Conducted by: Jeremy Ng (Srpint 2, Week11, 9-Oct-2017 )
+Evidence of work: https://munch-box.appspot.com/login
  
 
 ### User testing
 Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
+
+Conducted by: Minh Tran (Srpint 2, Week11, 11-Oct-2017 )
 
 ## Sprint 3
 
 ### Mobile Web Prototype
 Mobile Web Prototype is a representation of the final product, The aim of this product is to simulate experience on devices that do not have the application on it and also interaction between the application and the users, This will help the team to refine the final product as per feedbacks gathered from the user.
 
-Mobile Web Link:
-https://munch-box.appspot.com/login
+Conducted by: Jeremy Ng (Sprint3, Week12, updated 18-Oct-2017 )
+Evidence of work: https://munch-box.appspot.com/login
 
 ### Mobile Prototype
 Mobile Prototype is a representation of the final product, it's aim is to simulate the experience and interaction between the web application/mobile application and the user to help with refining the final product.
 
-MunchBox APK:
-https://drive.google.com/file/d/0B2GxQ6YSknlCRFJXVWFySHN6VHc/view?usp=sharing
+Conducted by: Kelvin Ding Wei Sheng (Sprint3, Week12, 17-Oct-2017 )
+Evidence of work: https://drive.google.com/file/d/0B2GxQ6YSknlCRFJXVWFySHN6VHc/view?usp=sharing
 
+
+### In-app graphic content design 
+Create and maintain sprites for the functional prototype, in order to maintain the styling and the design guidelines as per discussed during our standups and meetings. This helps ensure that the application design will be consistant throughout.
+
+Conducted by: Edi Cheung (Sprint3, Week12, 17-Oct-2017 )
+Evidence of work: https://drive.google.com/drive/folders/0Bz9R1CjOQ21AVmtENXVNa0c0SWM?usp=sharing
+
+### Showcase poster
+Creating a main promotional poster for the upcoming showcase give potential user a general overview of the munchbox concept and the aim/problem we are trying to achieve and solve.
+
+Conducted by: Minh Tran (Sprint3, Week12, 18-Oct-2017 )
+Evidence of work: 
+
+### Showcase brochure 
+Creating a main promotional brochure for the upcoming showcase to give potential user a detailed rundown of what the munchbox concept is about, instructions on how to use it and the aim/problem we are trying to achieve/solve with the concept. 
+
+Conducted by: Ned Gordon (Sprint3, Week12, 20-Oct-2017 )
+Evidence of work:
 ___
 
 
