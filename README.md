@@ -178,6 +178,9 @@ Mobile Prototype is a representation of the final product, it's aim is to simula
 MunchBox APK:
 https://drive.google.com/file/d/0B2GxQ6YSknlCRFJXVWFySHN6VHc/view?usp=sharing
 
+### Standup Analysis
+https://drive.google.com/file/d/0B_8MdQuvq7lgbXFqUFZZc0N3aEk/view?usp=sharing
+
 ___
 
 
