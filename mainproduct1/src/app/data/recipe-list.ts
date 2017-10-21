@@ -8,6 +8,7 @@ export const recipeList: recipe[] = [
         description: 'Savory muffins that are flavored with garlicky ramps. Great for bentos, especially when made in mini-size.',
         sharedRecipe: false,
         type: 'Vegan',
+        createBy: 'Steven Smith',
         ingredients: ['tomato', 'cucumber'],
         imgURL: '/assets/images/pestomuffin.jpg',
 
@@ -19,6 +20,7 @@ export const recipeList: recipe[] = [
         description: 'Tender and juicy chicken in the most amazing creamy and delicious garlic mushroom sauce! This makes one incredible 30 minute meal!',
         sharedRecipe: true,
         type: 'Stew',
+        createBy: 'Jaymes Wei',
         ingredients: ['chicken thigh', 'mushroom'],
         imgURL: '/assets/images/box.png'
     },
@@ -29,6 +31,7 @@ export const recipeList: recipe[] = [
         description: 'Carbonara (Italian: [karboˈnaːra]) is an Italian pasta dish from Rome[1][2] made with egg, hard cheese, seafood, and pepper.',
         sharedRecipe: true,
         type: 'Pasta & Risotto',
+        createBy: 'Steven Smith',
         ingredients: ['Squid', 'prawn', 'scallop', 'mushroom'],
         imgURL: '/assets/images/box.png'
     }

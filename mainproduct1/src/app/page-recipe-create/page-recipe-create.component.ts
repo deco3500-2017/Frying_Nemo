@@ -138,6 +138,7 @@ export class PageRecipeCreateComponent implements OnInit {
       sharedRecipe: false,
       ingredients: this.ingredients,
       type: this.recipeType,
+      createBy: 'Woody Sins',
       imgURL: './assets/images/box.png'
     }
     recipeList.push(this.recipe);

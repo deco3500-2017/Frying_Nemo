@@ -57,7 +57,6 @@ import { PageShoppingComponent } from './page-shopping/page-shopping.component';
     AppRoutingModule,
     ReactiveFormsModule,
     BrowserAnimationsModule
-
   ],
   providers: [
     D3Service,

@@ -39,7 +39,7 @@ export class PageLunchComponent implements OnInit {
   }
 
   ngOnInit() {
-    localStorage.removeItem('shoppingList');
+    // localStorage.removeItem('shoppingList');
   }
   
   retrieveRecipe() {
