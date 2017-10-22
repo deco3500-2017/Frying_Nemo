@@ -8,7 +8,7 @@ export const recipeList: recipe[] = [
         description: 'Savory muffins that are flavored with garlicky ramps. Great for bentos, especially when made in mini-size.',
         sharedRecipe: false,
         type: 'Vegan',
-        createBy: 'Steven Smith',
+        createBy: 'Woody Sins',
         ingredients: ['tomato', 'cucumber'],
         imgURL: '/assets/images/pestomuffin.jpg',
 
