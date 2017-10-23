@@ -18,6 +18,17 @@ Conducted by: Kelvin Ding Wei Sheng
 
 Evidence of work: https://drive.google.com/open?id=0B2GxQ6YSknlCTHYyYWpNcDMtYzQ
 
+
+
+
+Wireframe version 3 (Sprint 2, Week10, updated1-Oct-2017
+
+Conducted by: Ned Gordon
+
+Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgcDk0TmhmTFpiNlk
+
+
+
 ### User journey map
 User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
 
