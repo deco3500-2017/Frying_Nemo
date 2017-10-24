@@ -12,11 +12,12 @@
             width: 20vh;
             height: 20vh;
             border-radius: 50%;
-            background: url('/assets/images/woody.jpg');
+            background: url('/assets/images/profile.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             margin: 0 4vw;
+            border: #ddd solid 1px;
         }
         .profile-dtl {
             display: flex;
