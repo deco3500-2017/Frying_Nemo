@@ -242,7 +242,8 @@ Creating a main promotional poster for the upcoming showcase give potential user
 
 Conducted by: Minh Tran (Sprint3, Week12, 18-Oct-2017 )
 
-Evidence of work: https://drive.google.com/file/d/0B8g3K06eAqeOaW9rdVQ3alFLRHM/view?usp=sharing
+Evidence of work: V.1 https://drive.google.com/file/d/0B8g3K06eAqeOaW9rdVQ3alFLRHM/view?usp=sharing
+                  v.2 https://drive.google.com/open?id=0B_8MdQuvq7lgQ3FxUW1JMGlWQlU
 
 
 ### Showcase brochure 
