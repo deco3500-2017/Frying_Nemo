@@ -262,7 +262,7 @@ Creating a promotional flyer which breifly run throught the concept, ideal user 
 
 Conducted by: Edi Cheung, Kelvin Ding Wei Sheng, Jeremy Ng (Sprint3, Week12, 22-Oct-2017 )
 
-Evidence of work:
+Evidence of work: https://drive.google.com/open?id=0B2GxQ6YSknlCeUxWLUFRb0JhWVk
 
 
 ___
