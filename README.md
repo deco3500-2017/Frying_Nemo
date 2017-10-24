@@ -107,6 +107,14 @@ Conducted by: Kelvin Ding Wei Sheng
 
 Evidence of work: https://drive.google.com/open?id=0B2GxQ6YSknlCTHYyYWpNcDMtYzQ
 
+
+
+Wireframe version 3 (Sprint 2, Week10, updated 1-Oct-2017 )
+
+Conducted by: Ned Gordon
+
+Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgcDk0TmhmTFpiNlk
+
 ### User journey map
 User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
 
@@ -137,6 +145,8 @@ Mockup user testing 2 (Srpint 1, Week8, updated 11-Sep-2017 )
 Conducted by: Minh Tran
 
 Evidence of work: https://marvelapp.com/4iga8bd/screen/32252576
+
+
 
 
 ### Prototype
@@ -232,14 +242,23 @@ Creating a main promotional poster for the upcoming showcase give potential user
 
 Conducted by: Minh Tran (Sprint3, Week12, 18-Oct-2017 )
 
-Evidence of work: https://drive.google.com/file/d/0B8g3K06eAqeONkJ6bkEzcTMzNWs/view?usp=sharing
+Evidence of work: https://drive.google.com/file/d/0B8g3K06eAqeOaW9rdVQ3alFLRHM/view?usp=sharing
+
 
 ### Showcase brochure 
 Creating a main promotional brochure for the upcoming showcase to give potential user a detailed rundown of what the munchbox concept is about, instructions on how to use it and the aim/problem we are trying to achieve/solve with the concept. 
 
 Conducted by: Ned Gordon (Sprint3, Week12, 20-Oct-2017 )
 
+Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgaGJySGxHM1Y2MzQ
+
+### Showcase flyer
+Creating a promotional flyer which breifly run throught the concept, ideal user experience, and key features of the application.
+
+Conducted by: Edi Cheung, Kelvin Ding Wei Sheng, Jeremy Ng (Sprint3, Week12, 22-Oct-2017 )
+
 Evidence of work:
+
 
 ___
 

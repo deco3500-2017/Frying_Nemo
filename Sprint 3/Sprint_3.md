@@ -35,3 +35,10 @@ Creating a main promotional brochure for the upcoming showcase to give potential
 Conducted by: Ned Gordon (Sprint3, Week12, 20-Oct-2017 )
 
 Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgaGJySGxHM1Y2MzQ
+
+### Showcase flyer
+Creating a promotional flyer which breifly run throught the concept, ideal user experience, and key features of the application.
+
+Conducted by: Edi Cheung, Kelvin Ding Wei Sheng, Jeremy Ng (Sprint3, Week12, 22-Oct-2017 )
+
+Evidence of work:
