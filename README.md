@@ -21,7 +21,10 @@ This idea has a strong starting platform, as there are no other applications out
 | Calculation of Nutrition data | When user is creating a new recipe or combination of food or browsing shared recipe, nutrition of each ingredients will be caculated and displayed. In this case, user will have a better understanding of the nutrition of each ingredient.
 
 ### Audience
+
 Parents, teachers, anyone who are running out of ideas for their lunchbox or do not have the time to think of any nutritious combination of food for their lunchbox.
+
+#### Original Persona's
 * Persona A - Ming Lee
 > Single father of 2 young children, one in kindergarten and one in primary school. He has a day job from 9am to 6pm (not inclusive of over-time) and barely have time to pack lunch for his two children in the morning. Consequently, due to time constraints the lunch boxes packed for his kids contain unhealthy food, such as chips, pre-packaged food and soft drinks.
 * Persona B - James Kappa
@@ -29,7 +32,13 @@ Parents, teachers, anyone who are running out of ideas for their lunchbox or do 
 
 `For more information about the person, please use this` [link](https://github.com/deco3500-2017/Frying_Nemo/blob/master/Week%205%20Practical.docx "Persona's")
 
+#### Updated Persona's
+* Persona A - Ashley Candleson
+> Ashley Candleson has been a single mother for several years now. Most of her time is spent working and providing for her two children, who mean the world to her. Because she has to work so much Ashley has very little time to spend with her children, and most of that time is spent preparing meals for them to eat, both in the evening and throughout the day whilst they are at school. A lot of time is spent preparing these meals since she struggles to find recipes which she knows the children will enjoy, since they are both picky eaters. As such, the variety present in their meals throughout the day is quite limited, as she tends to fall back upon several well-known recipes which she knows they like rather than risking new and untried meals. 
+* Persona B - Gerald McWilliams
+> Gerald has been married for ten years, he has a single child from that marriage. This child suffers from multiple allergies which make it difficult for them to introduce much variety into their diet. Further, it is difficult to make and prepare lunches with which his child can eat throughout the day since most meals contain the ingredients from which they could suffer an allergic reaction. Gerald wants some way to be able to track his child's food intake, to ensure they are getting enough variety. Also, he wishes to teach his child healthy eating habits for the future.
 
+`For more information about the person, please use this` [link](https://drive.google.com/open?id=0B_8MdQuvq7lgS000UVhqeXgwbzQ "Persona's")
 
 ### Project Milestones
 Breakdown of sprint dates and deliverables are as follows:
@@ -245,20 +254,29 @@ Conducted by: Minh Tran (Sprint3, Week12, 18-Oct-2017 )
 Evidence of work: https://drive.google.com/file/d/0B8g3K06eAqeOaW9rdVQ3alFLRHM/view?usp=sharing
 
 
+
 ### Showcase brochure 
 Creating a main promotional brochure for the upcoming showcase to give potential user a detailed rundown of what the munchbox concept is about, instructions on how to use it and the aim/problem we are trying to achieve/solve with the concept. 
 
 Conducted by: Ned Gordon (Sprint3, Week12, 20-Oct-2017 )
 
-Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgaGJySGxHM1Y2MzQ
+Evidence of work: 
+
+V.1 https://drive.google.com/open?id=0B_8MdQuvq7lgaGJySGxHM1Y2MzQ
+
+V.2 https://drive.google.com/open?id=0B_8MdQuvq7lgQ3FxUW1JMGlWQlU
 
 ### Showcase flyer
 Creating a promotional flyer which breifly run throught the concept, ideal user experience, and key features of the application.
 
 Conducted by: Edi Cheung, Kelvin Ding Wei Sheng, Jeremy Ng (Sprint3, Week12, 22-Oct-2017 )
 
+<<<<<<< HEAD
 Evidence of work: [Binder2.pdf](https://github.com/deco3500-2017/Frying_Nemo/files/1416433/Binder2.pdf)
 
+=======
+Evidence of work: https://drive.google.com/open?id=0B2GxQ6YSknlCeUxWLUFRb0JhWVk
+>>>>>>> 4a976193016e2cfbac585991d70dcd3596803b17
 
 
 ___
