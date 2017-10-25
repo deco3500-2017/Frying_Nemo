@@ -1,6 +1,6 @@
-# MunchBox
+# MunchBox - Team Frying_Nemo
 
-# Frying_Nemo
+
 
 ## Promotional Material 1 (Showcase Poster)
 
