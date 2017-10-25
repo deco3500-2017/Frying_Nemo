@@ -27,7 +27,7 @@ Creating a main promotional poster for the upcoming showcase give potential user
 
 Conducted by: Minh Tran (Sprint3, Week12, 18-Oct-2017 )
 
-Evidence of work: https://drive.google.com/file/d/0B8g3K06eAqeONkJ6bkEzcTMzNWs/view?usp=sharing
+Evidence of work: https://drive.google.com/file/d/0B8g3K06eAqeOaW9rdVQ3alFLRHM/view?usp=sharing
 
 ### Showcase brochure 
 Creating a main promotional brochure for the upcoming showcase to give potential user a detailed rundown of what the munchbox concept is about, instructions on how to use it and the aim/problem we are trying to achieve/solve with the concept. 
@@ -41,4 +41,5 @@ Creating a promotional flyer which breifly run throught the concept, ideal user 
 
 Conducted by: Edi Cheung, Kelvin Ding Wei Sheng, Jeremy Ng (Sprint3, Week12, 22-Oct-2017 )
 
-Evidence of work:
+Evidence of work: [Binder2.pdf](https://github.com/deco3500-2017/Frying_Nemo/files/1416433/Binder2.pdf)
+

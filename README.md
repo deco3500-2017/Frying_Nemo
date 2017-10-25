@@ -257,7 +257,8 @@ Creating a promotional flyer which breifly run throught the concept, ideal user 
 
 Conducted by: Edi Cheung, Kelvin Ding Wei Sheng, Jeremy Ng (Sprint3, Week12, 22-Oct-2017 )
 
-Evidence of work:
+Evidence of work: [Binder2.pdf](https://github.com/deco3500-2017/Frying_Nemo/files/1416433/Binder2.pdf)
+
 
 
 ___
