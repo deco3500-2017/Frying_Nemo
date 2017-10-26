@@ -9,7 +9,7 @@
 ## Promotional Material 2 (Showcase Flyer)
 
 ![binder2](https://user-images.githubusercontent.com/12377827/32029090-8ae81f6c-ba35-11e7-8956-557bb09b2fa0.png)
-![binder22](https://user-images.githubusercontent.com/12377827/32029094-8d649126-ba35-11e7-8f75-47bd34d23531.png)
+ ![binder22](https://user-images.githubusercontent.com/12377827/32029223-7e609f0c-ba36-11e7-82b8-372e0226d5b3.png)
 
 
 ## Prototype
