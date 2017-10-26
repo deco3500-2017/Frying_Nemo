@@ -44,9 +44,15 @@ Evidence of work: https://munch-box.appspot.com/login
 ### User testing
 Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
 
-Conducted by: Minh Tran (Sprint 2, Week11, 11-Oct-2017 )
+Conducted by: Minh Tran & Ned Gordon (Sprint 2, Week11, 11-Oct-2017 )
 
-###
+Evidence of work: https://drive.google.com/open?id=1jmTahTQ721pUFa7qODFS81-GZ4A2-lSKNObwRn6I9d8
+
+Script: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
+
+Raw Data
+
+### Re-evaluated Persona's
 After re-evaluating the scope of the application and who would use it, the persona's used to guide the design and creation of 'MunchBox' needed to be re-examined.
 
 Conducted by: Ned Gordon (Sprint 2, Week11, 11-Oct-2017)
