@@ -4,12 +4,12 @@
 
 ## Promotional Material 1 (Showcase Poster)
 
-[posterFinal.pdf](https://github.com/deco3500-2017/Frying_Nemo/files/1409243/posterFinal.pdf)
+![posterfinal](https://user-images.githubusercontent.com/12377827/32029026-1f35be46-ba35-11e7-8363-33c6d5b369a3.png)
 
 ## Promotional Material 2 (Showcase Flyer)
 
-[Binder2.pdf](https://github.com/deco3500-2017/Frying_Nemo/files/1416433/Binder2.pdf)
-
+![binder2](https://user-images.githubusercontent.com/12377827/32029090-8ae81f6c-ba35-11e7-8956-557bb09b2fa0.png)
+![binder22](https://user-images.githubusercontent.com/12377827/32029094-8d649126-ba35-11e7-8f75-47bd34d23531.png)
 
 
 ## Prototype
