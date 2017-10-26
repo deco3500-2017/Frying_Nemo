@@ -174,6 +174,8 @@ Conducted by: Minh Tran (Srpint 1, Week9, 19-Sep-2017 )
 
 Plan after user testing 1, we decided to slightlt modified to design and the flow of the design, work will be evenly distributed to all team members.
 
+Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
+
 ## Sprint 2
 
 ### Wireframe
