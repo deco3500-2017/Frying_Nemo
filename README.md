@@ -1,5 +1,9 @@
 # Frying_Nemo
 
+Final documentation file link:
+
+https://github.com/deco3500-2017/Frying_Nemo/blob/master/Documentation.md
+
 ## Background
 A healthy and balanced diet is integral towards developing minds and concentration. However, despite this nearly 33% of all school aged children fail to receive a balanced and healthy diet whilst at school according to a study conducted by the New York Times (2015). Further, of the 68% who do get a healthy lunch, based upon a study by the Johns Hopkins Bloomberg School of Public Health, 25% of them even bother to eat it all (Medical Daily, 2014).
 ## Introduction & Concept
@@ -247,6 +251,14 @@ Create and maintain sprites for the functional prototype, in order to maintain t
 Conducted by: Edi Cheung (Sprint3, Week12, 17-Oct-2017 )
 
 Evidence of work: https://drive.google.com/drive/folders/0Bz9R1CjOQ21AVmtENXVNa0c0SWM?usp=sharing
+
+
+### Flow diagram
+Create a clear flow of diagram to guide first time user running through the application.
+
+Conducted by: Jeremy Ng (Sprint3, Week12, 20-Oct-2017 )
+
+Evidence of work: https://drive.google.com/open?id=0B7qYjwpry_vPckF3eHVWQ3FMOVE
 
 ### Showcase poster
 Creating a main promotional poster for the upcoming showcase give potential user a general overview of the munchbox concept and the aim/problem we are trying to achieve and solve.
