@@ -61,6 +61,8 @@ Link: https://drive.google.com/open?id=0B2GxQ6YSknlCdHIyYVowUUY4aVE
 Link: https://drive.google.com/open?id=0Bz9R1CjOQ21AV0lMOWF0MzZpOUE
 
 > Early conceptualisations of ‘MunchBox’ focused primarily on measuring children's food consumption throughout the week.
+
+
 The application then developed into the community field. With an introduction and focus upon a large scale community driven recipe database which allowed users to share, like and subscribe to various recipes. These recipes could be searched for using keywords and allowed users to search for recipes which included or excluded certain ingredients based upon their child’s preferences or allergies.
 These changes were tested against a group of participants from nearby schools who matched the user criteria we had established in our initial persona’s
 
