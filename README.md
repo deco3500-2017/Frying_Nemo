@@ -174,11 +174,15 @@ Evidence of work: https://marvelapp.com/4iga8bd/screen/32252576
 ### User testing
 Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
 
-Conducted by: Minh Tran (Srpint 1, Week9, 19-Sep-2017 )
+Conducted by: Minh Tran & Ned Gordon (Sprint 2, Week10, 19-Sep-2017 )
 
-Plan after user testing 1, we decided to slightlt modified to design and the flow of the design, work will be evenly distributed to all team members.
+Plan after user testing 1, we decided to slightly modify the design and flow of the design, work will be evenly distributed to all team members.
 
-Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
+Evidence of work: 
+
+Script: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
+
+Raw Data: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
 
 ## Sprint 2
 
@@ -186,7 +190,7 @@ Evidence of work: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
 Wireframe is the skeleton framework of the interface of the web application, it is used for creating a better representation of idea through lines and vectors. 
 
 
-Wireframe version 2 (Srpint 2, Week10, updated 1-Oct-2017 )
+Wireframe version 2 (Sprint 2, Week10, updated 1-Oct-2017 )
 
 Conducted by: Kelvin Ding Wei Sheng, Edi Cheung
 
@@ -196,7 +200,7 @@ Evidence of work: https://drive.google.com/drive/folders/0B2GxQ6YSknlCTHYyYWpNcD
 User journey map is a demonstration of the user behaviour through identifying their goal, motivation, difficulties and the tasks that user looking to achieve.
 
 
-User journry map version 2 (Srpint 2, Week10, updated 3-Oct-2017 )
+User journry map version 2 (Sprint 2, Week10, updated 3-Oct-2017 )
 
 Conducted by: Jeremy Ng, Edi Cheung
 
@@ -222,11 +226,6 @@ Conducted by: Jeremy Ng (Srpint 2, Week11, 9-Oct-2017 )
 
 Evidence of work: https://munch-box.appspot.com/login
  
-
-### User testing
-Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users.
-
-Conducted by: Minh Tran (Srpint 2, Week11, 11-Oct-2017 )
 
 ## Sprint 3
 
