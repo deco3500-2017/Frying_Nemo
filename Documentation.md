@@ -64,13 +64,17 @@ Link: https://drive.google.com/open?id=0Bz9R1CjOQ21AV0lMOWF0MzZpOUE
 
 
 The application then developed into the community field. With an introduction and focus upon a large scale community driven recipe database which allowed users to share, like and subscribe to various recipes. These recipes could be searched for using keywords and allowed users to search for recipes which included or excluded certain ingredients based upon their child’s preferences or allergies.
-These changes were tested against a group of participants from nearby schools who matched the user criteria we had established in our initial persona’s
+These changes were tested against a group of participants from nearby schools who matched the user criteria we had established in our initial persona’s. Since the calories breakdown and statistic seem to be the most difficult and also out of place function for the initial prototype (according to the user testing result), we had decided to move onto the next mockup without the function.
 
 Script: https://drive.google.com/open?id=0B_8MdQuvq7lgT2JNRFl6Ty1uQ2c
 
 Raw Data: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
 
 Prototype: https://marvelapp.com/4iga8bd/screen/32252576
+
+Prototype User Interface Testing Plan: https://docs.google.com/document/d/1UK-YJLkaKeO1MiTz77LK6ZPTDCJU9BNDmlTibgDWC3Q/edit?usp=sharing
+
+Prototype User Interface Testing Result: https://drive.google.com/open?id=19moXC5qZLWIgBsIP_Zdyfvmg31MAfbZtPblezLaM-Yk
 
 A series of mockups were constructed based upon this feedback by various members of the team, ‘Frying Nemo’.
 #### Mockup Version One
@@ -173,7 +177,7 @@ Link: https://drive.google.com/open?id=1B2Z4rFTDwH2LBgEPQO2QOUqJkZPjjiP0dbVS6emW
 
 Done by: Whole team
 
-## User Testing 
+## User Interview 
 
 ### Script 
 
@@ -184,6 +188,20 @@ Done by: Ned Gordon & Julien Tran
 ### Raw Data
 
 Link: https://drive.google.com/open?id=0B_8MdQuvq7lgdWpjeThERDBiUmc
+
+Done by: Ned Gordon & Julien Tran
+
+## User Testing with Marvel Prototype 
+
+### Script 
+
+Link: https://docs.google.com/document/d/1UK-YJLkaKeO1MiTz77LK6ZPTDCJU9BNDmlTibgDWC3Q/edit?usp=sharing
+
+Done by: Ned Gordon & Julien Tran
+
+### Raw Data
+
+Link: https://drive.google.com/open?id=19moXC5qZLWIgBsIP_Zdyfvmg31MAfbZtPblezLaM-Yk
 
 Done by: Ned Gordon & Julien Tran
 
